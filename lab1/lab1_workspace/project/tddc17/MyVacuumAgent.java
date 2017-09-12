@@ -24,8 +24,9 @@ class MyAgentState
 	final int ACTION_TURN_LEFT 		= 3;
 	final int ACTION_SUCK	 		= 4;
 	
-	public int agent_x_position = 1;
-	public int agent_y_position = 1;
+	public final Position homePos = new Position(1, 1);
+	public int agent_x_position = homePos.x;
+	public int agent_y_position = homePos.y;
 	public int agent_last_action = ACTION_NONE;
 	
 	public static final int NORTH = 0;
@@ -34,14 +35,15 @@ class MyAgentState
 	public static final int WEST = 3;
 	public int agent_direction = EAST;
 	
-	public Mode mode = new FindWallMode();
+	public Mode mode = new BreadthFirstMode();
+	public Boolean returningHome = false;
 	
 	MyAgentState()
 	{
 		for (int i=0; i < world.length; i++)
 			for (int j=0; j < world[i].length ; j++)
 				world[i][j] = UNKNOWN;
-		world[1][1] = HOME;
+		world[homePos.x][homePos.y] = HOME;
 		agent_last_action = ACTION_NONE;
 	}
 	
@@ -112,47 +114,61 @@ class MyAgentState
 		}
 	}
 	
-	public Position currentPosition() {
+	public Position getCurrentPosition() {
 		return new Position(this.agent_x_position, this.agent_y_position);
 	}
 	
-	public void setPosition(Position position, int type) {
+	public void setTileData(Position position, int type) {
 		this.world[position.x][position.y]= type; 
 	}
 	
 	public Position getForwardPosition() {
 		switch (this.agent_direction) {
 		case MyAgentState.NORTH:
-			return new Position(this.agent_x_position,this.agent_y_position-1);
+			return this.getCurrentPosition().north();
 		case MyAgentState.EAST:
-			return new Position(this.agent_x_position+1,this.agent_y_position);
+			return this.getCurrentPosition().east();
 		case MyAgentState.SOUTH:
-			return new Position(this.agent_x_position,this.agent_y_position+1);
+			return this.getCurrentPosition().south();
 		case MyAgentState.WEST:
-			return new Position(this.agent_x_position-1,this.agent_y_position);
+			return this.getCurrentPosition().west();
 		default: 
-			return new Position(this.agent_x_position,this.agent_y_position);
+			return this.getCurrentPosition();
 		}
 	}
 	
 	public Position getRightPosition() {
-	switch (this.agent_direction) {
+		switch (this.agent_direction) {
 		case MyAgentState.NORTH:
-			return new Position(this.agent_x_position+1,this.agent_y_position);
+			return this.getCurrentPosition().east();
 		case MyAgentState.EAST:
-			return new Position(this.agent_x_position,this.agent_y_position+1);
+			return this.getCurrentPosition().south();
 		case MyAgentState.SOUTH:
-			return new Position(this.agent_x_position-1,this.agent_y_position);
+			return this.getCurrentPosition().west();
 		case MyAgentState.WEST:
-			return new Position(this.agent_x_position,this.agent_y_position-1);
+			return this.getCurrentPosition().north();
 		default: 
-			return new Position(this.agent_x_position,this.agent_y_position);
+			return this.getCurrentPosition();
+		}
+	}
+
+	public Position getLeftPosition() {
+		switch (this.agent_direction) {
+		case MyAgentState.NORTH:
+			return this.getCurrentPosition().west();
+		case MyAgentState.EAST:
+			return this.getCurrentPosition().north();
+		case MyAgentState.SOUTH:
+			return this.getCurrentPosition().east();
+		case MyAgentState.WEST:
+			return this.getCurrentPosition().south();
+		default: 
+			return this.getCurrentPosition();
 		}
 	}
 	
 	public int getTileData(Position p) {
 		return this.world[p.x][p.y];
-		
 	}
 }
 
@@ -162,7 +178,7 @@ class MyAgentProgram implements AgentProgram {
 	private Random random_generator = new Random();
 	
 	// Here you can define your variables!
-	public int iterationCounter = 1000;
+	public int iterationCounter = 15*15*2*10;
 	public MyAgentState state = new MyAgentState();
 	
 	// moves the Agent to a random start position
@@ -214,38 +230,28 @@ class MyAgentProgram implements AgentProgram {
 	    Boolean dirt = (Boolean)p.getAttribute("dirt");
 	    Boolean home = (Boolean)p.getAttribute("home");
 	    System.out.println("percept: " + p);
-	    state.printWorldDebug();
 
 		state.updatePosition((DynamicPercept) percept);
-		System.out.println(state.agent_x_position + " " + state.agent_y_position);
-	    // Sucking dirt is prioritized
+		
+	    // Sucking dirt is prioritized over running current mode
 	    if (dirt) {
-	    	System.out.println("DIRT -> choosing SUCK action!");
 	    	state.updateLastAction(LIUVacuumEnvironment.ACTION_SUCK);
 	    	return LIUVacuumEnvironment.ACTION_SUCK;
 	    } else {
-	    	ModeResult result = state.mode.runMode(state, bump, dirt, home);
-	    	state.updateLastAction(result.action);
-	    	state.updateDirection(result.action);
-	    	state.setPosition(state.currentPosition(), state.CLEAR);
-	    	state.mode = result.nextMode;
-	    	return result.action;
+	    	if (state.returningHome && state.getCurrentPosition().equals(state.homePos)) {
+	    		return NoOpAction.NO_OP;
+	    		// Done!
+	    	} else {
+		    	ModeResult result = state.mode.runMode(state, bump, dirt, home);
+		    	state.updateLastAction(result.action);
+		    	state.updateDirection(result.action);
+		    	state.mode = result.nextMode;
+		    	return result.action;
+	    	}
 	    }
-	}
-	
-	private boolean done() {
-		return  state.world[state.agent_x_position][state.agent_y_position] != state.UNKNOWN &&
-				state.world[state.agent_x_position][state.agent_y_position] != state.WALL;
 	}
 }
 
-/*
- * 
-	public void updateWorld(int x_position, int y_position, int info)
-	{
-		world[x_position][y_position] = info;
-	}
- */
 public class MyVacuumAgent extends AbstractAgent {
     public MyVacuumAgent() {
     	super(new MyAgentProgram());
