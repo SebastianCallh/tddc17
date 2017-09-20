@@ -1,6 +1,6 @@
 package searchCustom;
 
-import java.awt.List;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 
@@ -40,89 +40,35 @@ public class CustomGraphSearch implements SearchObject {
 
 		// Path will be empty until we find the goal.
 		path = new ArrayList<SearchNode>();
-		
-		// Implement this!
-		System.out.println("Implement CustomGraphSearch.java!");
-		
-		//Queue<Position> frontier = new LinkedList<Position>();
-		//Set<String> enqueued = new HashSet<String>();
-		//Map<Position, Position> preceedes = new HashMap<Position, Position>();
-		//frontier.add(start);
-		//enqueued.add(start.toString());
 
+		explored.add(new SearchNode(startState));
+		
 		while (!frontier.isEmpty()) {
 			SearchNode node = frontier.removeFirst();
 			
 			if (p.isGoalState(node.getState())) {
-				return node.getPathFromRoot();
+				path = node.getPathFromRoot();
+				break;
 			}
 			
 			ArrayList<GridPos> neighbours = p.getReachableStatesFrom(node.getState());
 			
-			for (GridPos neighbour : neighbours) {
-				SearchNode pos = new SearchNode(neighbour, node);
-				if (!explored.contains(neighbour)) {
-					explored.add(pos);
+			for (GridPos neighbourPos : neighbours) {
+				SearchNode neighbourNode = new SearchNode(neighbourPos, node);
+				if (!explored.contains(neighbourNode)) {
+					explored.add(neighbourNode);
 					if (this.insertFront) {
 						// Stack
-						frontier.addNodeToFront(pos);
+						frontier.addNodeToFront(neighbourNode);
 					} else {
 						// Queue
-						frontier.addNodeToBack(pos);
+						frontier.addNodeToBack(neighbourNode);
 					}
 				}
 			}
 		}
-		
-		/* Some hints:
-		 * -Read early part of chapter 3 in the book!
-		 * -You are free to change anything how you wish as long as the program runs, but some structure is given to help you.
-		 * -You can Google for "javadoc <class>" if you are uncertain of what you can do with a particular Java type.
-		 * 
-		 * -SearchNodes are the nodes of the search tree and contains the relevant problem state, in this case x,y position (GridPos) of the agent 
-		 * --You can create a new search node from a state by: SearchNode childNode = new SearchNode(childState, currentNode);
-		 * --You can also extract the state by .getState() method
-		 * --All search structures use search nodes, but the problem object only speaks in state, so you may need to convert between them 
-		 * 
-		 * -The frontier is a queue of search nodes, open this class to find out what you can do with it! 
-		 * 
-		 * -If you are unfamiliar with Java, the "HashSet<SearchNode>" used for the explored set means a set of SearchNode objects.
-		 * --You can add nodes to the explored set, or check if it contains a node!
-		 * 
-		 * -To get the child states (adjacent grid positions that are not walls) of a particular search node, do: ArrayList<GridPos> childStates = p.getReachableStatesFrom(currentState);
-		 * 
-		 * -Depending on the addNodesToFront boolean variable, you may need to do something with the frontier... (see book)
-		 * 
-		 * -You can check if you have reached the goal with p.isGoalState(NodeState)
-		 * 
-		 *  When the goal is found, the path to be returned can be found by: path = node.getPathFromRoot();
-		 */
-		/* Note: Returning an empty path signals that no path exists */
 		return path;
 	}
-
-	private ArrayList<SearchNode> neighbours(SearchNode node) {
-		ArrayList<SearchNode> neighbours = new ArrayList<SearchNode>();
-		GridPos pos = node.getState();
-		neighbours.add(new SearchNode(new GridPos(pos.getX() + 1, pos.getY()), node));
-		neighbours.add(new SearchNode(new GridPos(pos.getX() - 1, pos.getY()), node));
-		neighbours.add(new SearchNode(new GridPos(pos.getX(), pos.getY() + 1), node));
-		neighbours.add(new SearchNode(new GridPos(pos.getX(), pos.getY() - 1), node));
-		return neighbours;
-	}
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	/*
 	 * Functions below are just getters used externally by the program 
