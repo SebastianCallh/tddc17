@@ -1,0 +1,41 @@
+(define (domain shakey)
+  (:requirements :strips)
+  (:types hand room box)
+;;  (:predicates (HÄR ÄR VÅRA GREJER))
+;;  (:action görEnGrej
+;;    :parameters (?benis ?phidda)
+;;    :preconditions (and (LISTA PÅ PREDIKAT))
+;;    :effect (and (LISTA PÅ PREDIKAT)))
+  
+  (:predicates 
+    (pos  ?r - room)
+    (lit  ?r - room)
+    (box  ?r - room)
+    (ball ?r - room)
+    (ball_in_hand ?h - hand)
+    (small_door   ?r1 - room ?r2 - room)
+    (wide_door    ?r1 - room ?r2 - room))
+
+  (:action move
+    :parameters   (?from - room ?to - room)
+    :precondition (and (pos ?from) (or 
+    		  (wide_door ?from ?to) 
+		  (small_door ?from ?to) 
+		  (wide_door ?to ?from) 
+		  (small_door ?to ?from)))
+    :effect       (and (not (pos ?from)) (pos ?to)))
+
+  (:action pick_up
+    :parameters   (?h - hand ?r - room)
+    :precondition (and (ball ?r) (pos ?r) (not (ball_in_hand ?h)))
+    :effect       (and (ball_in_hand ?h) (not (ball ?r))))
+
+  (:action drop
+    :parameters   (?h - hand ?r - room)
+    :precondition (and (ball_in_hand ?h) (pos ?r))
+    :effect       (and (not (ball_in_hand ?h)) (ball ?r)))
+    
+  (:action push_box
+    :parameters   (?r1 - room ?r2 - room)
+    :precondition (and (box ?r1) (pos ?r1) (or (wide_door ?r1 ?r2) (wide_door ?r2 ?r1)))
+    :effect       (and (not (box ?r1) (pos ?r1)) (box ?r2) (pos ?r2)))

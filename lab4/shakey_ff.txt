@@ -1,0 +1,1168 @@
+{"act": "begin_group", "ts": 0}
+{"act": "open_list_sorting", "key_list": ["h_SINGLE", "h_(", "h_ff", "h_INSERTION_ORDER", "h_)"]}
+{"ts":0, "act": "state_update", "state_id": 0, "state": {"var0": "0(Atom box(room11))", "var1": "6(Atom pos(room31))", "var2": "1(NegatedAtom lit(room23))", "var3": "1(NegatedAtom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "g": -1, "real_g": -1}
+{"ts": 0, "act": "evaluated_states", "state_id": 0, "preferred": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 0}
+{"ts":0, "act": "state_update", "state_id": 0, "h_ff": 17}
+{"ts": 0, "act": "evaluated_heuristics", "count": 1}
+{"act": "preferred_heuristics", "key_list": []}
+{"act": "main_heuristic", "target": "h_ff"}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 1}
+{"ts":1, "act": "state_update", "state_id": 0, "g": 0, "real_g": 0}
+{"ts": 1, "act": "expanded_states", "state_id": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 1}
+{"ts":1, "act": "state_update", "state_id": 1, "state": {"var0": "0(Atom box(room11))", "var1": "7(Atom pos(room32))", "var2": "1(NegatedAtom lit(room23))", "var3": "1(NegatedAtom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [0, "move room31 room32", 1]}
+{"ts": 1, "act": "generated_states", "state_id": 0, "op": "move room31 room32"}
+{"ts":1, "act": "state_update", "state_id": 1, "g": -1, "real_g": -1}
+{"ts": 1, "act": "evaluated_states", "state_id": 1, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 1}
+{"ts":1, "act": "state_update", "state_id": 1, "h_ff": 17}
+{"ts": 1, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 2}
+{"ts":2, "act": "state_update", "state_id": 1, "g": 1, "real_g": 1}
+{"ts": 2, "act": "expanded_states", "state_id": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 2}
+{"ts":2, "act": "state_update", "state_id": 0, "new_parent": [1, "move room32 room31", 1]}
+{"ts": 2, "act": "generated_states", "state_id": 1, "op": "move room32 room31"}
+{"ts":2, "act": "state_update", "state_id": 2, "state": {"var0": "0(Atom box(room11))", "var1": "8(Atom pos(room33))", "var2": "1(NegatedAtom lit(room23))", "var3": "1(NegatedAtom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [1, "move room32 room33", 1]}
+{"ts": 2, "act": "generated_states", "state_id": 1, "op": "move room32 room33"}
+{"ts":2, "act": "state_update", "state_id": 2, "g": -1, "real_g": -1}
+{"ts": 2, "act": "evaluated_states", "state_id": 2, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 2}
+{"ts":2, "act": "state_update", "state_id": 2, "h_ff": 17}
+{"ts": 2, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 3}
+{"ts":3, "act": "state_update", "state_id": 2, "g": 2, "real_g": 2}
+{"ts": 3, "act": "expanded_states", "state_id": 2}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 3}
+{"ts":3, "act": "state_update", "state_id": 3, "state": {"var0": "0(Atom box(room11))", "var1": "5(Atom pos(room23))", "var2": "1(NegatedAtom lit(room23))", "var3": "1(NegatedAtom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [2, "move room33 room23", 1]}
+{"ts": 3, "act": "generated_states", "state_id": 2, "op": "move room33 room23"}
+{"ts":3, "act": "state_update", "state_id": 3, "g": -1, "real_g": -1}
+{"ts": 3, "act": "evaluated_states", "state_id": 3, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 3}
+{"ts":3, "act": "state_update", "state_id": 3, "h_ff": 17}
+{"ts": 3, "act": "evaluated_heuristics", "count": 1}
+{"ts":3, "act": "state_update", "state_id": 1, "new_parent": [2, "move room33 room32", 1]}
+{"ts": 3, "act": "generated_states", "state_id": 2, "op": "move room33 room32"}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 4}
+{"ts":4, "act": "state_update", "state_id": 3, "g": 3, "real_g": 3}
+{"ts": 4, "act": "expanded_states", "state_id": 3}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 4}
+{"ts":4, "act": "state_update", "state_id": 4, "state": {"var0": "0(Atom box(room11))", "var1": "2(Atom pos(room13))", "var2": "1(NegatedAtom lit(room23))", "var3": "1(NegatedAtom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [3, "move room23 room13", 1]}
+{"ts": 4, "act": "generated_states", "state_id": 3, "op": "move room23 room13"}
+{"ts":4, "act": "state_update", "state_id": 4, "g": -1, "real_g": -1}
+{"ts": 4, "act": "evaluated_states", "state_id": 4, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 4}
+{"ts":4, "act": "state_update", "state_id": 4, "h_ff": 17}
+{"ts": 4, "act": "evaluated_heuristics", "count": 1}
+{"ts":4, "act": "state_update", "state_id": 5, "state": {"var0": "0(Atom box(room11))", "var1": "4(Atom pos(room22))", "var2": "1(NegatedAtom lit(room23))", "var3": "1(NegatedAtom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [3, "move room23 room22", 1]}
+{"ts": 4, "act": "generated_states", "state_id": 3, "op": "move room23 room22"}
+{"ts":4, "act": "state_update", "state_id": 5, "g": -1, "real_g": -1}
+{"ts": 4, "act": "evaluated_states", "state_id": 5, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 4}
+{"ts":4, "act": "state_update", "state_id": 5, "h_ff": 17}
+{"ts": 4, "act": "evaluated_heuristics", "count": 1}
+{"ts":4, "act": "state_update", "state_id": 2, "new_parent": [3, "move room23 room33", 1]}
+{"ts": 4, "act": "generated_states", "state_id": 3, "op": "move room23 room33"}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 5}
+{"ts":5, "act": "state_update", "state_id": 4, "g": 4, "real_g": 4}
+{"ts": 5, "act": "expanded_states", "state_id": 4}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 5}
+{"ts":5, "act": "state_update", "state_id": 3, "new_parent": [4, "move room13 room23", 1]}
+{"ts": 5, "act": "generated_states", "state_id": 4, "op": "move room13 room23"}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 6}
+{"ts":6, "act": "state_update", "state_id": 5, "g": 4, "real_g": 4}
+{"ts": 6, "act": "expanded_states", "state_id": 5}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 6}
+{"ts":6, "act": "state_update", "state_id": 6, "state": {"var0": "0(Atom box(room11))", "var1": "1(Atom pos(room12))", "var2": "1(NegatedAtom lit(room23))", "var3": "1(NegatedAtom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [5, "move room22 room12", 1]}
+{"ts": 6, "act": "generated_states", "state_id": 5, "op": "move room22 room12"}
+{"ts":6, "act": "state_update", "state_id": 6, "g": -1, "real_g": -1}
+{"ts": 6, "act": "evaluated_states", "state_id": 6, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 6}
+{"ts":6, "act": "state_update", "state_id": 6, "h_ff": 17}
+{"ts": 6, "act": "evaluated_heuristics", "count": 1}
+{"ts":6, "act": "state_update", "state_id": 7, "state": {"var0": "0(Atom box(room11))", "var1": "3(Atom pos(room21))", "var2": "1(NegatedAtom lit(room23))", "var3": "1(NegatedAtom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [5, "move room22 room21", 1]}
+{"ts": 6, "act": "generated_states", "state_id": 5, "op": "move room22 room21"}
+{"ts":6, "act": "state_update", "state_id": 7, "g": -1, "real_g": -1}
+{"ts": 6, "act": "evaluated_states", "state_id": 7, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 6}
+{"ts":6, "act": "state_update", "state_id": 7, "h_ff": 18}
+{"ts": 6, "act": "evaluated_heuristics", "count": 1}
+{"ts":6, "act": "state_update", "state_id": 3, "new_parent": [5, "move room22 room23", 1]}
+{"ts": 6, "act": "generated_states", "state_id": 5, "op": "move room22 room23"}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 7}
+{"ts":7, "act": "state_update", "state_id": 6, "g": 5, "real_g": 5}
+{"ts": 7, "act": "expanded_states", "state_id": 6}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 7}
+{"ts":7, "act": "state_update", "state_id": 8, "state": {"var0": "0(Atom box(room11))", "var1": "0(Atom pos(room11))", "var2": "1(NegatedAtom lit(room23))", "var3": "1(NegatedAtom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [6, "move room12 room11", 1]}
+{"ts": 7, "act": "generated_states", "state_id": 6, "op": "move room12 room11"}
+{"ts":7, "act": "state_update", "state_id": 8, "g": -1, "real_g": -1}
+{"ts": 7, "act": "evaluated_states", "state_id": 8, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 7}
+{"ts":7, "act": "state_update", "state_id": 8, "h_ff": 17}
+{"ts": 7, "act": "evaluated_heuristics", "count": 1}
+{"ts":7, "act": "state_update", "state_id": 5, "new_parent": [6, "move room12 room22", 1]}
+{"ts": 7, "act": "generated_states", "state_id": 6, "op": "move room12 room22"}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 8}
+{"ts":8, "act": "state_update", "state_id": 8, "g": 6, "real_g": 6}
+{"ts": 8, "act": "expanded_states", "state_id": 8}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 8}
+{"ts":8, "act": "state_update", "state_id": 9, "state": {"var0": "1(Atom box(room12))", "var1": "1(Atom pos(room12))", "var2": "1(NegatedAtom lit(room23))", "var3": "1(NegatedAtom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [8, "push_box room11 room12", 1]}
+{"ts": 8, "act": "generated_states", "state_id": 8, "op": "push_box room11 room12"}
+{"ts":8, "act": "state_update", "state_id": 9, "g": -1, "real_g": -1}
+{"ts": 8, "act": "evaluated_states", "state_id": 9, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 8}
+{"ts":8, "act": "state_update", "state_id": 9, "h_ff": 16}
+{"ts": 8, "act": "evaluated_heuristics", "count": 1}
+{"ts":8, "act": "state_update", "state_id": 10, "state": {"var0": "0(Atom box(room11))", "var1": "0(Atom pos(room11))", "var2": "1(NegatedAtom lit(room23))", "var3": "1(NegatedAtom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "0(Atom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [8, "light_room room11", 1]}
+{"ts": 8, "act": "generated_states", "state_id": 8, "op": "light_room room11"}
+{"ts":8, "act": "state_update", "state_id": 10, "g": -1, "real_g": -1}
+{"ts": 8, "act": "evaluated_states", "state_id": 10, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 8}
+{"ts":8, "act": "state_update", "state_id": 10, "h_ff": 17}
+{"ts": 8, "act": "evaluated_heuristics", "count": 1}
+{"ts":8, "act": "state_update", "state_id": 6, "new_parent": [8, "move room11 room12", 1]}
+{"ts": 8, "act": "generated_states", "state_id": 8, "op": "move room11 room12"}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 9}
+{"ts":9, "act": "state_update", "state_id": 9, "g": 7, "real_g": 7}
+{"ts": 9, "act": "expanded_states", "state_id": 9}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 9}
+{"ts":9, "act": "state_update", "state_id": 8, "new_parent": [9, "push_box room12 room11", 1]}
+{"ts": 9, "act": "generated_states", "state_id": 9, "op": "push_box room12 room11"}
+{"ts":9, "act": "state_update", "state_id": 11, "state": {"var0": "4(Atom box(room22))", "var1": "4(Atom pos(room22))", "var2": "1(NegatedAtom lit(room23))", "var3": "1(NegatedAtom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [9, "push_box room12 room22", 1]}
+{"ts": 9, "act": "generated_states", "state_id": 9, "op": "push_box room12 room22"}
+{"ts":9, "act": "state_update", "state_id": 11, "g": -1, "real_g": -1}
+{"ts": 9, "act": "evaluated_states", "state_id": 11, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 9}
+{"ts":9, "act": "state_update", "state_id": 11, "h_ff": 15}
+{"ts": 9, "act": "evaluated_heuristics", "count": 1}
+{"ts":9, "act": "state_update", "state_id": 12, "state": {"var0": "1(Atom box(room12))", "var1": "1(Atom pos(room12))", "var2": "1(NegatedAtom lit(room23))", "var3": "1(NegatedAtom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "0(Atom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [9, "light_room room12", 1]}
+{"ts": 9, "act": "generated_states", "state_id": 9, "op": "light_room room12"}
+{"ts":9, "act": "state_update", "state_id": 12, "g": -1, "real_g": -1}
+{"ts": 9, "act": "evaluated_states", "state_id": 12, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 9}
+{"ts":9, "act": "state_update", "state_id": 12, "h_ff": 16}
+{"ts": 9, "act": "evaluated_heuristics", "count": 1}
+{"ts":9, "act": "state_update", "state_id": 13, "state": {"var0": "1(Atom box(room12))", "var1": "0(Atom pos(room11))", "var2": "1(NegatedAtom lit(room23))", "var3": "1(NegatedAtom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [9, "move room12 room11", 1]}
+{"ts": 9, "act": "generated_states", "state_id": 9, "op": "move room12 room11"}
+{"ts":9, "act": "state_update", "state_id": 13, "g": -1, "real_g": -1}
+{"ts": 9, "act": "evaluated_states", "state_id": 13, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 9}
+{"ts":9, "act": "state_update", "state_id": 13, "h_ff": 16}
+{"ts": 9, "act": "evaluated_heuristics", "count": 1}
+{"ts":9, "act": "state_update", "state_id": 14, "state": {"var0": "1(Atom box(room12))", "var1": "4(Atom pos(room22))", "var2": "1(NegatedAtom lit(room23))", "var3": "1(NegatedAtom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [9, "move room12 room22", 1]}
+{"ts": 9, "act": "generated_states", "state_id": 9, "op": "move room12 room22"}
+{"ts":9, "act": "state_update", "state_id": 14, "g": -1, "real_g": -1}
+{"ts": 9, "act": "evaluated_states", "state_id": 14, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 9}
+{"ts":9, "act": "state_update", "state_id": 14, "h_ff": 16}
+{"ts": 9, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 10}
+{"ts":10, "act": "state_update", "state_id": 11, "g": 8, "real_g": 8}
+{"ts": 10, "act": "expanded_states", "state_id": 11}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 10}
+{"ts":10, "act": "state_update", "state_id": 9, "new_parent": [11, "push_box room22 room12", 1]}
+{"ts": 10, "act": "generated_states", "state_id": 11, "op": "push_box room22 room12"}
+{"ts":10, "act": "state_update", "state_id": 15, "state": {"var0": "3(Atom box(room21))", "var1": "3(Atom pos(room21))", "var2": "1(NegatedAtom lit(room23))", "var3": "1(NegatedAtom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [11, "push_box room22 room21", 1]}
+{"ts": 10, "act": "generated_states", "state_id": 11, "op": "push_box room22 room21"}
+{"ts":10, "act": "state_update", "state_id": 15, "g": -1, "real_g": -1}
+{"ts": 10, "act": "evaluated_states", "state_id": 15, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 10}
+{"ts":10, "act": "state_update", "state_id": 15, "h_ff": 17}
+{"ts": 10, "act": "evaluated_heuristics", "count": 1}
+{"ts":10, "act": "state_update", "state_id": 16, "state": {"var0": "5(Atom box(room23))", "var1": "5(Atom pos(room23))", "var2": "1(NegatedAtom lit(room23))", "var3": "1(NegatedAtom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [11, "push_box room22 room23", 1]}
+{"ts": 10, "act": "generated_states", "state_id": 11, "op": "push_box room22 room23"}
+{"ts":10, "act": "state_update", "state_id": 16, "g": -1, "real_g": -1}
+{"ts": 10, "act": "evaluated_states", "state_id": 16, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 10}
+{"ts":10, "act": "state_update", "state_id": 16, "h_ff": 15}
+{"ts": 10, "act": "evaluated_heuristics", "count": 1}
+{"ts":10, "act": "state_update", "state_id": 17, "state": {"var0": "4(Atom box(room22))", "var1": "4(Atom pos(room22))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [11, "light_room room22", 1]}
+{"ts": 10, "act": "generated_states", "state_id": 11, "op": "light_room room22"}
+{"ts":10, "act": "state_update", "state_id": 17, "g": -1, "real_g": -1}
+{"ts": 10, "act": "evaluated_states", "state_id": 17, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 10}
+{"ts":10, "act": "state_update", "state_id": 17, "h_ff": 14}
+{"ts": 10, "act": "evaluated_heuristics", "count": 1}
+{"ts":10, "act": "state_update", "state_id": 18, "state": {"var0": "4(Atom box(room22))", "var1": "1(Atom pos(room12))", "var2": "1(NegatedAtom lit(room23))", "var3": "1(NegatedAtom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [11, "move room22 room12", 1]}
+{"ts": 10, "act": "generated_states", "state_id": 11, "op": "move room22 room12"}
+{"ts":10, "act": "state_update", "state_id": 18, "g": -1, "real_g": -1}
+{"ts": 10, "act": "evaluated_states", "state_id": 18, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 10}
+{"ts":10, "act": "state_update", "state_id": 18, "h_ff": 15}
+{"ts": 10, "act": "evaluated_heuristics", "count": 1}
+{"ts":10, "act": "state_update", "state_id": 19, "state": {"var0": "4(Atom box(room22))", "var1": "3(Atom pos(room21))", "var2": "1(NegatedAtom lit(room23))", "var3": "1(NegatedAtom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [11, "move room22 room21", 1]}
+{"ts": 10, "act": "generated_states", "state_id": 11, "op": "move room22 room21"}
+{"ts":10, "act": "state_update", "state_id": 19, "g": -1, "real_g": -1}
+{"ts": 10, "act": "evaluated_states", "state_id": 19, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 10}
+{"ts":10, "act": "state_update", "state_id": 19, "h_ff": 16}
+{"ts": 10, "act": "evaluated_heuristics", "count": 1}
+{"ts":10, "act": "state_update", "state_id": 20, "state": {"var0": "4(Atom box(room22))", "var1": "5(Atom pos(room23))", "var2": "1(NegatedAtom lit(room23))", "var3": "1(NegatedAtom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [11, "move room22 room23", 1]}
+{"ts": 10, "act": "generated_states", "state_id": 11, "op": "move room22 room23"}
+{"ts":10, "act": "state_update", "state_id": 20, "g": -1, "real_g": -1}
+{"ts": 10, "act": "evaluated_states", "state_id": 20, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 10}
+{"ts":10, "act": "state_update", "state_id": 20, "h_ff": 15}
+{"ts": 10, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 11}
+{"ts":11, "act": "state_update", "state_id": 17, "g": 9, "real_g": 9}
+{"ts": 11, "act": "expanded_states", "state_id": 17}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 11}
+{"ts":11, "act": "state_update", "state_id": 21, "state": {"var0": "1(Atom box(room12))", "var1": "1(Atom pos(room12))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [17, "push_box room22 room12", 1]}
+{"ts": 11, "act": "generated_states", "state_id": 17, "op": "push_box room22 room12"}
+{"ts":11, "act": "state_update", "state_id": 21, "g": -1, "real_g": -1}
+{"ts": 11, "act": "evaluated_states", "state_id": 21, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 11}
+{"ts":11, "act": "state_update", "state_id": 21, "h_ff": 15}
+{"ts": 11, "act": "evaluated_heuristics", "count": 1}
+{"ts":11, "act": "state_update", "state_id": 22, "state": {"var0": "3(Atom box(room21))", "var1": "3(Atom pos(room21))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [17, "push_box room22 room21", 1]}
+{"ts": 11, "act": "generated_states", "state_id": 17, "op": "push_box room22 room21"}
+{"ts":11, "act": "state_update", "state_id": 22, "g": -1, "real_g": -1}
+{"ts": 11, "act": "evaluated_states", "state_id": 22, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 11}
+{"ts":11, "act": "state_update", "state_id": 22, "h_ff": 16}
+{"ts": 11, "act": "evaluated_heuristics", "count": 1}
+{"ts":11, "act": "state_update", "state_id": 23, "state": {"var0": "5(Atom box(room23))", "var1": "5(Atom pos(room23))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [17, "push_box room22 room23", 1]}
+{"ts": 11, "act": "generated_states", "state_id": 17, "op": "push_box room22 room23"}
+{"ts":11, "act": "state_update", "state_id": 23, "g": -1, "real_g": -1}
+{"ts": 11, "act": "evaluated_states", "state_id": 23, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 11}
+{"ts":11, "act": "state_update", "state_id": 23, "h_ff": 13}
+{"ts": 11, "act": "evaluated_heuristics", "count": 1}
+{"ts":11, "act": "state_update", "state_id": 24, "state": {"var0": "4(Atom box(room22))", "var1": "1(Atom pos(room12))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [17, "move room22 room12", 1]}
+{"ts": 11, "act": "generated_states", "state_id": 17, "op": "move room22 room12"}
+{"ts":11, "act": "state_update", "state_id": 24, "g": -1, "real_g": -1}
+{"ts": 11, "act": "evaluated_states", "state_id": 24, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 11}
+{"ts":11, "act": "state_update", "state_id": 24, "h_ff": 14}
+{"ts": 11, "act": "evaluated_heuristics", "count": 1}
+{"ts":11, "act": "state_update", "state_id": 25, "state": {"var0": "4(Atom box(room22))", "var1": "3(Atom pos(room21))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [17, "move room22 room21", 1]}
+{"ts": 11, "act": "generated_states", "state_id": 17, "op": "move room22 room21"}
+{"ts":11, "act": "state_update", "state_id": 25, "g": -1, "real_g": -1}
+{"ts": 11, "act": "evaluated_states", "state_id": 25, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 11}
+{"ts":11, "act": "state_update", "state_id": 25, "h_ff": 15}
+{"ts": 11, "act": "evaluated_heuristics", "count": 1}
+{"ts":11, "act": "state_update", "state_id": 26, "state": {"var0": "4(Atom box(room22))", "var1": "5(Atom pos(room23))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [17, "move room22 room23", 1]}
+{"ts": 11, "act": "generated_states", "state_id": 17, "op": "move room22 room23"}
+{"ts":11, "act": "state_update", "state_id": 26, "g": -1, "real_g": -1}
+{"ts": 11, "act": "evaluated_states", "state_id": 26, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 11}
+{"ts":11, "act": "state_update", "state_id": 26, "h_ff": 14}
+{"ts": 11, "act": "evaluated_heuristics", "count": 1}
+{"ts":11, "act": "state_update", "state_id": 27, "state": {"var0": "4(Atom box(room22))", "var1": "4(Atom pos(room22))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "0(Atom ball_in_hand(red_ball, left_hand))"}, "new_parent": [17, "pick_up left_hand red_ball room22", 1]}
+{"ts": 11, "act": "generated_states", "state_id": 17, "op": "pick_up left_hand red_ball room22"}
+{"ts":11, "act": "state_update", "state_id": 27, "g": -1, "real_g": -1}
+{"ts": 11, "act": "evaluated_states", "state_id": 27, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 11}
+{"ts":11, "act": "state_update", "state_id": 27, "h_ff": 13}
+{"ts": 11, "act": "evaluated_heuristics", "count": 1}
+{"ts":11, "act": "state_update", "state_id": 28, "state": {"var0": "4(Atom box(room22))", "var1": "4(Atom pos(room22))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "1(Atom ball_in_hand(red_ball, right_hand))"}, "new_parent": [17, "pick_up right_hand red_ball room22", 1]}
+{"ts": 11, "act": "generated_states", "state_id": 17, "op": "pick_up right_hand red_ball room22"}
+{"ts":11, "act": "state_update", "state_id": 28, "g": -1, "real_g": -1}
+{"ts": 11, "act": "evaluated_states", "state_id": 28, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 11}
+{"ts":11, "act": "state_update", "state_id": 28, "h_ff": 13}
+{"ts": 11, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 12}
+{"ts":12, "act": "state_update", "state_id": 23, "g": 10, "real_g": 10}
+{"ts": 12, "act": "expanded_states", "state_id": 23}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 12}
+{"ts":12, "act": "state_update", "state_id": 29, "state": {"var0": "2(Atom box(room13))", "var1": "2(Atom pos(room13))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [23, "push_box room23 room13", 1]}
+{"ts": 12, "act": "generated_states", "state_id": 23, "op": "push_box room23 room13"}
+{"ts":12, "act": "state_update", "state_id": 29, "g": -1, "real_g": -1}
+{"ts": 12, "act": "evaluated_states", "state_id": 29, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 12}
+{"ts":12, "act": "state_update", "state_id": 29, "h_ff": 12}
+{"ts": 12, "act": "evaluated_heuristics", "count": 1}
+{"ts":12, "act": "state_update", "state_id": 17, "new_parent": [23, "push_box room23 room22", 1]}
+{"ts": 12, "act": "generated_states", "state_id": 23, "op": "push_box room23 room22"}
+{"ts":12, "act": "state_update", "state_id": 30, "state": {"var0": "5(Atom box(room23))", "var1": "5(Atom pos(room23))", "var2": "0(Atom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [23, "light_room room23", 1]}
+{"ts": 12, "act": "generated_states", "state_id": 23, "op": "light_room room23"}
+{"ts":12, "act": "state_update", "state_id": 30, "g": -1, "real_g": -1}
+{"ts": 12, "act": "evaluated_states", "state_id": 30, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 12}
+{"ts":12, "act": "state_update", "state_id": 30, "h_ff": 13}
+{"ts": 12, "act": "evaluated_heuristics", "count": 1}
+{"ts":12, "act": "state_update", "state_id": 31, "state": {"var0": "5(Atom box(room23))", "var1": "2(Atom pos(room13))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [23, "move room23 room13", 1]}
+{"ts": 12, "act": "generated_states", "state_id": 23, "op": "move room23 room13"}
+{"ts":12, "act": "state_update", "state_id": 31, "g": -1, "real_g": -1}
+{"ts": 12, "act": "evaluated_states", "state_id": 31, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 12}
+{"ts":12, "act": "state_update", "state_id": 31, "h_ff": 13}
+{"ts": 12, "act": "evaluated_heuristics", "count": 1}
+{"ts":12, "act": "state_update", "state_id": 32, "state": {"var0": "5(Atom box(room23))", "var1": "4(Atom pos(room22))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [23, "move room23 room22", 1]}
+{"ts": 12, "act": "generated_states", "state_id": 23, "op": "move room23 room22"}
+{"ts":12, "act": "state_update", "state_id": 32, "g": -1, "real_g": -1}
+{"ts": 12, "act": "evaluated_states", "state_id": 32, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 12}
+{"ts":12, "act": "state_update", "state_id": 32, "h_ff": 13}
+{"ts": 12, "act": "evaluated_heuristics", "count": 1}
+{"ts":12, "act": "state_update", "state_id": 33, "state": {"var0": "5(Atom box(room23))", "var1": "8(Atom pos(room33))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [23, "move room23 room33", 1]}
+{"ts": 12, "act": "generated_states", "state_id": 23, "op": "move room23 room33"}
+{"ts":12, "act": "state_update", "state_id": 33, "g": -1, "real_g": -1}
+{"ts": 12, "act": "evaluated_states", "state_id": 33, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 12}
+{"ts":12, "act": "state_update", "state_id": 33, "h_ff": 13}
+{"ts": 12, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 13}
+{"ts":13, "act": "state_update", "state_id": 29, "g": 11, "real_g": 11}
+{"ts": 13, "act": "expanded_states", "state_id": 29}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 13}
+{"ts":13, "act": "state_update", "state_id": 23, "new_parent": [29, "push_box room13 room23", 1]}
+{"ts": 13, "act": "generated_states", "state_id": 29, "op": "push_box room13 room23"}
+{"ts":13, "act": "state_update", "state_id": 34, "state": {"var0": "2(Atom box(room13))", "var1": "2(Atom pos(room13))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [29, "light_room room13", 1]}
+{"ts": 13, "act": "generated_states", "state_id": 29, "op": "light_room room13"}
+{"ts":13, "act": "state_update", "state_id": 34, "g": -1, "real_g": -1}
+{"ts": 13, "act": "evaluated_states", "state_id": 34, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 13}
+{"ts":13, "act": "state_update", "state_id": 34, "h_ff": 11}
+{"ts": 13, "act": "evaluated_heuristics", "count": 1}
+{"ts":13, "act": "state_update", "state_id": 35, "state": {"var0": "2(Atom box(room13))", "var1": "5(Atom pos(room23))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "1(NegatedAtom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [29, "move room13 room23", 1]}
+{"ts": 13, "act": "generated_states", "state_id": 29, "op": "move room13 room23"}
+{"ts":13, "act": "state_update", "state_id": 35, "g": -1, "real_g": -1}
+{"ts": 13, "act": "evaluated_states", "state_id": 35, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 13}
+{"ts":13, "act": "state_update", "state_id": 35, "h_ff": 12}
+{"ts": 13, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 14}
+{"ts":14, "act": "state_update", "state_id": 34, "g": 12, "real_g": 12}
+{"ts": 14, "act": "expanded_states", "state_id": 34}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 14}
+{"ts":14, "act": "state_update", "state_id": 36, "state": {"var0": "5(Atom box(room23))", "var1": "5(Atom pos(room23))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [34, "push_box room13 room23", 1]}
+{"ts": 14, "act": "generated_states", "state_id": 34, "op": "push_box room13 room23"}
+{"ts":14, "act": "state_update", "state_id": 36, "g": -1, "real_g": -1}
+{"ts": 14, "act": "evaluated_states", "state_id": 36, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 14}
+{"ts":14, "act": "state_update", "state_id": 36, "h_ff": 11}
+{"ts": 14, "act": "evaluated_heuristics", "count": 1}
+{"ts":14, "act": "state_update", "state_id": 37, "state": {"var0": "2(Atom box(room13))", "var1": "5(Atom pos(room23))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "4(Atom ball_pos(green_ball, room13))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [34, "move room13 room23", 1]}
+{"ts": 14, "act": "generated_states", "state_id": 34, "op": "move room13 room23"}
+{"ts":14, "act": "state_update", "state_id": 37, "g": -1, "real_g": -1}
+{"ts": 14, "act": "evaluated_states", "state_id": 37, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 14}
+{"ts":14, "act": "state_update", "state_id": 37, "h_ff": 11}
+{"ts": 14, "act": "evaluated_heuristics", "count": 1}
+{"ts":14, "act": "state_update", "state_id": 38, "state": {"var0": "2(Atom box(room13))", "var1": "2(Atom pos(room13))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [34, "pick_up left_hand green_ball room13", 1]}
+{"ts": 14, "act": "generated_states", "state_id": 34, "op": "pick_up left_hand green_ball room13"}
+{"ts":14, "act": "state_update", "state_id": 38, "g": -1, "real_g": -1}
+{"ts": 14, "act": "evaluated_states", "state_id": 38, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 14}
+{"ts":14, "act": "state_update", "state_id": 38, "h_ff": 10}
+{"ts": 14, "act": "evaluated_heuristics", "count": 1}
+{"ts":14, "act": "state_update", "state_id": 39, "state": {"var0": "2(Atom box(room13))", "var1": "2(Atom pos(room13))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "1(Atom ball_in_hand(green_ball, right_hand))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [34, "pick_up right_hand green_ball room13", 1]}
+{"ts": 14, "act": "generated_states", "state_id": 34, "op": "pick_up right_hand green_ball room13"}
+{"ts":14, "act": "state_update", "state_id": 39, "g": -1, "real_g": -1}
+{"ts": 14, "act": "evaluated_states", "state_id": 39, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 14}
+{"ts":14, "act": "state_update", "state_id": 39, "h_ff": 10}
+{"ts": 14, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 15}
+{"ts":15, "act": "state_update", "state_id": 38, "g": 13, "real_g": 13}
+{"ts": 15, "act": "expanded_states", "state_id": 38}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 15}
+{"ts":15, "act": "state_update", "state_id": 40, "state": {"var0": "5(Atom box(room23))", "var1": "5(Atom pos(room23))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [38, "push_box room13 room23", 1]}
+{"ts": 15, "act": "generated_states", "state_id": 38, "op": "push_box room13 room23"}
+{"ts":15, "act": "state_update", "state_id": 40, "g": -1, "real_g": -1}
+{"ts": 15, "act": "evaluated_states", "state_id": 40, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 15}
+{"ts":15, "act": "state_update", "state_id": 40, "h_ff": 9}
+{"ts": 15, "act": "evaluated_heuristics", "count": 1}
+{"ts":15, "act": "state_update", "state_id": 41, "state": {"var0": "2(Atom box(room13))", "var1": "5(Atom pos(room23))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [38, "move room13 room23", 1]}
+{"ts": 15, "act": "generated_states", "state_id": 38, "op": "move room13 room23"}
+{"ts":15, "act": "state_update", "state_id": 41, "g": -1, "real_g": -1}
+{"ts": 15, "act": "evaluated_states", "state_id": 41, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 15}
+{"ts":15, "act": "state_update", "state_id": 41, "h_ff": 9}
+{"ts": 15, "act": "evaluated_heuristics", "count": 1}
+{"ts":15, "act": "state_update", "state_id": 34, "new_parent": [38, "drop left_hand green_ball room13", 1]}
+{"ts": 15, "act": "generated_states", "state_id": 38, "op": "drop left_hand green_ball room13"}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 16}
+{"ts":16, "act": "state_update", "state_id": 40, "g": 14, "real_g": 14}
+{"ts": 16, "act": "expanded_states", "state_id": 40}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 16}
+{"ts":16, "act": "state_update", "state_id": 38, "new_parent": [40, "push_box room23 room13", 1]}
+{"ts": 16, "act": "generated_states", "state_id": 40, "op": "push_box room23 room13"}
+{"ts":16, "act": "state_update", "state_id": 42, "state": {"var0": "4(Atom box(room22))", "var1": "4(Atom pos(room22))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [40, "push_box room23 room22", 1]}
+{"ts": 16, "act": "generated_states", "state_id": 40, "op": "push_box room23 room22"}
+{"ts":16, "act": "state_update", "state_id": 42, "g": -1, "real_g": -1}
+{"ts": 16, "act": "evaluated_states", "state_id": 42, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 16}
+{"ts":16, "act": "state_update", "state_id": 42, "h_ff": 9}
+{"ts": 16, "act": "evaluated_heuristics", "count": 1}
+{"ts":16, "act": "state_update", "state_id": 43, "state": {"var0": "5(Atom box(room23))", "var1": "5(Atom pos(room23))", "var2": "0(Atom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [40, "light_room room23", 1]}
+{"ts": 16, "act": "generated_states", "state_id": 40, "op": "light_room room23"}
+{"ts":16, "act": "state_update", "state_id": 43, "g": -1, "real_g": -1}
+{"ts": 16, "act": "evaluated_states", "state_id": 43, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 16}
+{"ts":16, "act": "state_update", "state_id": 43, "h_ff": 9}
+{"ts": 16, "act": "evaluated_heuristics", "count": 1}
+{"ts":16, "act": "state_update", "state_id": 44, "state": {"var0": "5(Atom box(room23))", "var1": "2(Atom pos(room13))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [40, "move room23 room13", 1]}
+{"ts": 16, "act": "generated_states", "state_id": 40, "op": "move room23 room13"}
+{"ts":16, "act": "state_update", "state_id": 44, "g": -1, "real_g": -1}
+{"ts": 16, "act": "evaluated_states", "state_id": 44, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 16}
+{"ts":16, "act": "state_update", "state_id": 44, "h_ff": 10}
+{"ts": 16, "act": "evaluated_heuristics", "count": 1}
+{"ts":16, "act": "state_update", "state_id": 45, "state": {"var0": "5(Atom box(room23))", "var1": "4(Atom pos(room22))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [40, "move room23 room22", 1]}
+{"ts": 16, "act": "generated_states", "state_id": 40, "op": "move room23 room22"}
+{"ts":16, "act": "state_update", "state_id": 45, "g": -1, "real_g": -1}
+{"ts": 16, "act": "evaluated_states", "state_id": 45, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 16}
+{"ts":16, "act": "state_update", "state_id": 45, "h_ff": 9}
+{"ts": 16, "act": "evaluated_heuristics", "count": 1}
+{"ts":16, "act": "state_update", "state_id": 46, "state": {"var0": "5(Atom box(room23))", "var1": "8(Atom pos(room33))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [40, "move room23 room33", 1]}
+{"ts": 16, "act": "generated_states", "state_id": 40, "op": "move room23 room33"}
+{"ts":16, "act": "state_update", "state_id": 46, "g": -1, "real_g": -1}
+{"ts": 16, "act": "evaluated_states", "state_id": 46, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 16}
+{"ts":16, "act": "state_update", "state_id": 46, "h_ff": 9}
+{"ts": 16, "act": "evaluated_heuristics", "count": 1}
+{"ts":16, "act": "state_update", "state_id": 47, "state": {"var0": "5(Atom box(room23))", "var1": "5(Atom pos(room23))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "7(Atom ball_pos(green_ball, room23))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [40, "drop left_hand green_ball room23", 1]}
+{"ts": 16, "act": "generated_states", "state_id": 40, "op": "drop left_hand green_ball room23"}
+{"ts":16, "act": "state_update", "state_id": 47, "g": -1, "real_g": -1}
+{"ts": 16, "act": "evaluated_states", "state_id": 47, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 16}
+{"ts":16, "act": "state_update", "state_id": 47, "h_ff": 11}
+{"ts": 16, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 17}
+{"ts":17, "act": "state_update", "state_id": 41, "g": 14, "real_g": 14}
+{"ts": 17, "act": "expanded_states", "state_id": 41}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 17}
+{"ts":17, "act": "state_update", "state_id": 38, "new_parent": [41, "move room23 room13", 1]}
+{"ts": 17, "act": "generated_states", "state_id": 41, "op": "move room23 room13"}
+{"ts":17, "act": "state_update", "state_id": 48, "state": {"var0": "2(Atom box(room13))", "var1": "4(Atom pos(room22))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [41, "move room23 room22", 1]}
+{"ts": 17, "act": "generated_states", "state_id": 41, "op": "move room23 room22"}
+{"ts":17, "act": "state_update", "state_id": 48, "g": -1, "real_g": -1}
+{"ts": 17, "act": "evaluated_states", "state_id": 48, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 17}
+{"ts":17, "act": "state_update", "state_id": 48, "h_ff": 9}
+{"ts": 17, "act": "evaluated_heuristics", "count": 1}
+{"ts":17, "act": "state_update", "state_id": 49, "state": {"var0": "2(Atom box(room13))", "var1": "8(Atom pos(room33))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [41, "move room23 room33", 1]}
+{"ts": 17, "act": "generated_states", "state_id": 41, "op": "move room23 room33"}
+{"ts":17, "act": "state_update", "state_id": 49, "g": -1, "real_g": -1}
+{"ts": 17, "act": "evaluated_states", "state_id": 49, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 17}
+{"ts":17, "act": "state_update", "state_id": 49, "h_ff": 9}
+{"ts": 17, "act": "evaluated_heuristics", "count": 1}
+{"ts":17, "act": "state_update", "state_id": 50, "state": {"var0": "2(Atom box(room13))", "var1": "5(Atom pos(room23))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "7(Atom ball_pos(green_ball, room23))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [41, "drop left_hand green_ball room23", 1]}
+{"ts": 17, "act": "generated_states", "state_id": 41, "op": "drop left_hand green_ball room23"}
+{"ts":17, "act": "state_update", "state_id": 50, "g": -1, "real_g": -1}
+{"ts": 17, "act": "evaluated_states", "state_id": 50, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 17}
+{"ts":17, "act": "state_update", "state_id": 50, "h_ff": 13}
+{"ts": 17, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 18}
+{"ts":18, "act": "state_update", "state_id": 42, "g": 15, "real_g": 15}
+{"ts": 18, "act": "expanded_states", "state_id": 42}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 18}
+{"ts":18, "act": "state_update", "state_id": 51, "state": {"var0": "1(Atom box(room12))", "var1": "1(Atom pos(room12))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [42, "push_box room22 room12", 1]}
+{"ts": 18, "act": "generated_states", "state_id": 42, "op": "push_box room22 room12"}
+{"ts":18, "act": "state_update", "state_id": 51, "g": -1, "real_g": -1}
+{"ts": 18, "act": "evaluated_states", "state_id": 51, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 18}
+{"ts":18, "act": "state_update", "state_id": 51, "h_ff": 9}
+{"ts": 18, "act": "evaluated_heuristics", "count": 1}
+{"ts":18, "act": "state_update", "state_id": 52, "state": {"var0": "3(Atom box(room21))", "var1": "3(Atom pos(room21))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [42, "push_box room22 room21", 1]}
+{"ts": 18, "act": "generated_states", "state_id": 42, "op": "push_box room22 room21"}
+{"ts":18, "act": "state_update", "state_id": 52, "g": -1, "real_g": -1}
+{"ts": 18, "act": "evaluated_states", "state_id": 52, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 18}
+{"ts":18, "act": "state_update", "state_id": 52, "h_ff": 10}
+{"ts": 18, "act": "evaluated_heuristics", "count": 1}
+{"ts":18, "act": "state_update", "state_id": 40, "new_parent": [42, "push_box room22 room23", 1]}
+{"ts": 18, "act": "generated_states", "state_id": 42, "op": "push_box room22 room23"}
+{"ts":18, "act": "state_update", "state_id": 53, "state": {"var0": "4(Atom box(room22))", "var1": "1(Atom pos(room12))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [42, "move room22 room12", 1]}
+{"ts": 18, "act": "generated_states", "state_id": 42, "op": "move room22 room12"}
+{"ts":18, "act": "state_update", "state_id": 53, "g": -1, "real_g": -1}
+{"ts": 18, "act": "evaluated_states", "state_id": 53, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 18}
+{"ts":18, "act": "state_update", "state_id": 53, "h_ff": 9}
+{"ts": 18, "act": "evaluated_heuristics", "count": 1}
+{"ts":18, "act": "state_update", "state_id": 54, "state": {"var0": "4(Atom box(room22))", "var1": "3(Atom pos(room21))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [42, "move room22 room21", 1]}
+{"ts": 18, "act": "generated_states", "state_id": 42, "op": "move room22 room21"}
+{"ts":18, "act": "state_update", "state_id": 54, "g": -1, "real_g": -1}
+{"ts": 18, "act": "evaluated_states", "state_id": 54, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 18}
+{"ts":18, "act": "state_update", "state_id": 54, "h_ff": 10}
+{"ts": 18, "act": "evaluated_heuristics", "count": 1}
+{"ts":18, "act": "state_update", "state_id": 55, "state": {"var0": "4(Atom box(room22))", "var1": "5(Atom pos(room23))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [42, "move room22 room23", 1]}
+{"ts": 18, "act": "generated_states", "state_id": 42, "op": "move room22 room23"}
+{"ts":18, "act": "state_update", "state_id": 55, "g": -1, "real_g": -1}
+{"ts": 18, "act": "evaluated_states", "state_id": 55, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 18}
+{"ts":18, "act": "state_update", "state_id": 55, "h_ff": 9}
+{"ts": 18, "act": "evaluated_heuristics", "count": 1}
+{"ts":18, "act": "state_update", "state_id": 56, "state": {"var0": "4(Atom box(room22))", "var1": "4(Atom pos(room22))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "1(Atom ball_in_hand(red_ball, right_hand))"}, "new_parent": [42, "pick_up right_hand red_ball room22", 1]}
+{"ts": 18, "act": "generated_states", "state_id": 42, "op": "pick_up right_hand red_ball room22"}
+{"ts":18, "act": "state_update", "state_id": 56, "g": -1, "real_g": -1}
+{"ts": 18, "act": "evaluated_states", "state_id": 56, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 18}
+{"ts":18, "act": "state_update", "state_id": 56, "h_ff": 8}
+{"ts": 18, "act": "evaluated_heuristics", "count": 1}
+{"ts":18, "act": "state_update", "state_id": 57, "state": {"var0": "4(Atom box(room22))", "var1": "4(Atom pos(room22))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "6(Atom ball_pos(green_ball, room22))", "var11": "6(Atom ball_pos(red_ball, room22))"}, "new_parent": [42, "drop left_hand green_ball room22", 1]}
+{"ts": 18, "act": "generated_states", "state_id": 42, "op": "drop left_hand green_ball room22"}
+{"ts":18, "act": "state_update", "state_id": 57, "g": -1, "real_g": -1}
+{"ts": 18, "act": "evaluated_states", "state_id": 57, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 18}
+{"ts":18, "act": "state_update", "state_id": 57, "h_ff": 10}
+{"ts": 18, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 19}
+{"ts":19, "act": "state_update", "state_id": 56, "g": 16, "real_g": 16}
+{"ts": 19, "act": "expanded_states", "state_id": 56}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 19}
+{"ts":19, "act": "state_update", "state_id": 58, "state": {"var0": "1(Atom box(room12))", "var1": "1(Atom pos(room12))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "1(Atom ball_in_hand(red_ball, right_hand))"}, "new_parent": [56, "push_box room22 room12", 1]}
+{"ts": 19, "act": "generated_states", "state_id": 56, "op": "push_box room22 room12"}
+{"ts":19, "act": "state_update", "state_id": 58, "g": -1, "real_g": -1}
+{"ts": 19, "act": "evaluated_states", "state_id": 58, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 19}
+{"ts":19, "act": "state_update", "state_id": 58, "h_ff": 8}
+{"ts": 19, "act": "evaluated_heuristics", "count": 1}
+{"ts":19, "act": "state_update", "state_id": 59, "state": {"var0": "3(Atom box(room21))", "var1": "3(Atom pos(room21))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "1(Atom ball_in_hand(red_ball, right_hand))"}, "new_parent": [56, "push_box room22 room21", 1]}
+{"ts": 19, "act": "generated_states", "state_id": 56, "op": "push_box room22 room21"}
+{"ts":19, "act": "state_update", "state_id": 59, "g": -1, "real_g": -1}
+{"ts": 19, "act": "evaluated_states", "state_id": 59, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 19}
+{"ts":19, "act": "state_update", "state_id": 59, "h_ff": 9}
+{"ts": 19, "act": "evaluated_heuristics", "count": 1}
+{"ts":19, "act": "state_update", "state_id": 60, "state": {"var0": "5(Atom box(room23))", "var1": "5(Atom pos(room23))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "1(Atom ball_in_hand(red_ball, right_hand))"}, "new_parent": [56, "push_box room22 room23", 1]}
+{"ts": 19, "act": "generated_states", "state_id": 56, "op": "push_box room22 room23"}
+{"ts":19, "act": "state_update", "state_id": 60, "g": -1, "real_g": -1}
+{"ts": 19, "act": "evaluated_states", "state_id": 60, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 19}
+{"ts":19, "act": "state_update", "state_id": 60, "h_ff": 8}
+{"ts": 19, "act": "evaluated_heuristics", "count": 1}
+{"ts":19, "act": "state_update", "state_id": 61, "state": {"var0": "4(Atom box(room22))", "var1": "1(Atom pos(room12))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "1(Atom ball_in_hand(red_ball, right_hand))"}, "new_parent": [56, "move room22 room12", 1]}
+{"ts": 19, "act": "generated_states", "state_id": 56, "op": "move room22 room12"}
+{"ts":19, "act": "state_update", "state_id": 61, "g": -1, "real_g": -1}
+{"ts": 19, "act": "evaluated_states", "state_id": 61, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 19}
+{"ts":19, "act": "state_update", "state_id": 61, "h_ff": 8}
+{"ts": 19, "act": "evaluated_heuristics", "count": 1}
+{"ts":19, "act": "state_update", "state_id": 62, "state": {"var0": "4(Atom box(room22))", "var1": "3(Atom pos(room21))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "1(Atom ball_in_hand(red_ball, right_hand))"}, "new_parent": [56, "move room22 room21", 1]}
+{"ts": 19, "act": "generated_states", "state_id": 56, "op": "move room22 room21"}
+{"ts":19, "act": "state_update", "state_id": 62, "g": -1, "real_g": -1}
+{"ts": 19, "act": "evaluated_states", "state_id": 62, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 19}
+{"ts":19, "act": "state_update", "state_id": 62, "h_ff": 9}
+{"ts": 19, "act": "evaluated_heuristics", "count": 1}
+{"ts":19, "act": "state_update", "state_id": 63, "state": {"var0": "4(Atom box(room22))", "var1": "5(Atom pos(room23))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "1(Atom ball_in_hand(red_ball, right_hand))"}, "new_parent": [56, "move room22 room23", 1]}
+{"ts": 19, "act": "generated_states", "state_id": 56, "op": "move room22 room23"}
+{"ts":19, "act": "state_update", "state_id": 63, "g": -1, "real_g": -1}
+{"ts": 19, "act": "evaluated_states", "state_id": 63, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 19}
+{"ts":19, "act": "state_update", "state_id": 63, "h_ff": 8}
+{"ts": 19, "act": "evaluated_heuristics", "count": 1}
+{"ts":19, "act": "state_update", "state_id": 64, "state": {"var0": "4(Atom box(room22))", "var1": "4(Atom pos(room22))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "6(Atom ball_pos(green_ball, room22))", "var11": "1(Atom ball_in_hand(red_ball, right_hand))"}, "new_parent": [56, "drop left_hand green_ball room22", 1]}
+{"ts": 19, "act": "generated_states", "state_id": 56, "op": "drop left_hand green_ball room22"}
+{"ts":19, "act": "state_update", "state_id": 64, "g": -1, "real_g": -1}
+{"ts": 19, "act": "evaluated_states", "state_id": 64, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 19}
+{"ts":19, "act": "state_update", "state_id": 64, "h_ff": 9}
+{"ts": 19, "act": "evaluated_heuristics", "count": 1}
+{"ts":19, "act": "state_update", "state_id": 42, "new_parent": [56, "drop right_hand red_ball room22", 1]}
+{"ts": 19, "act": "generated_states", "state_id": 56, "op": "drop right_hand red_ball room22"}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 20}
+{"ts":20, "act": "state_update", "state_id": 58, "g": 17, "real_g": 17}
+{"ts": 20, "act": "expanded_states", "state_id": 58}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 20}
+{"ts":20, "act": "state_update", "state_id": 65, "state": {"var0": "0(Atom box(room11))", "var1": "0(Atom pos(room11))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "1(Atom ball_in_hand(red_ball, right_hand))"}, "new_parent": [58, "push_box room12 room11", 1]}
+{"ts": 20, "act": "generated_states", "state_id": 58, "op": "push_box room12 room11"}
+{"ts":20, "act": "state_update", "state_id": 65, "g": -1, "real_g": -1}
+{"ts": 20, "act": "evaluated_states", "state_id": 65, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 20}
+{"ts":20, "act": "state_update", "state_id": 65, "h_ff": 8}
+{"ts": 20, "act": "evaluated_heuristics", "count": 1}
+{"ts":20, "act": "state_update", "state_id": 56, "new_parent": [58, "push_box room12 room22", 1]}
+{"ts": 20, "act": "generated_states", "state_id": 58, "op": "push_box room12 room22"}
+{"ts":20, "act": "state_update", "state_id": 66, "state": {"var0": "1(Atom box(room12))", "var1": "1(Atom pos(room12))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "0(Atom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "1(Atom ball_in_hand(red_ball, right_hand))"}, "new_parent": [58, "light_room room12", 1]}
+{"ts": 20, "act": "generated_states", "state_id": 58, "op": "light_room room12"}
+{"ts":20, "act": "state_update", "state_id": 66, "g": -1, "real_g": -1}
+{"ts": 20, "act": "evaluated_states", "state_id": 66, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 20}
+{"ts":20, "act": "state_update", "state_id": 66, "h_ff": 8}
+{"ts": 20, "act": "evaluated_heuristics", "count": 1}
+{"ts":20, "act": "state_update", "state_id": 67, "state": {"var0": "1(Atom box(room12))", "var1": "0(Atom pos(room11))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "1(Atom ball_in_hand(red_ball, right_hand))"}, "new_parent": [58, "move room12 room11", 1]}
+{"ts": 20, "act": "generated_states", "state_id": 58, "op": "move room12 room11"}
+{"ts":20, "act": "state_update", "state_id": 67, "g": -1, "real_g": -1}
+{"ts": 20, "act": "evaluated_states", "state_id": 67, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 20}
+{"ts":20, "act": "state_update", "state_id": 67, "h_ff": 8}
+{"ts": 20, "act": "evaluated_heuristics", "count": 1}
+{"ts":20, "act": "state_update", "state_id": 68, "state": {"var0": "1(Atom box(room12))", "var1": "4(Atom pos(room22))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "1(Atom ball_in_hand(red_ball, right_hand))"}, "new_parent": [58, "move room12 room22", 1]}
+{"ts": 20, "act": "generated_states", "state_id": 58, "op": "move room12 room22"}
+{"ts":20, "act": "state_update", "state_id": 68, "g": -1, "real_g": -1}
+{"ts": 20, "act": "evaluated_states", "state_id": 68, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 20}
+{"ts":20, "act": "state_update", "state_id": 68, "h_ff": 8}
+{"ts": 20, "act": "evaluated_heuristics", "count": 1}
+{"ts":20, "act": "state_update", "state_id": 69, "state": {"var0": "1(Atom box(room12))", "var1": "1(Atom pos(room12))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "3(Atom ball_pos(green_ball, room12))", "var11": "1(Atom ball_in_hand(red_ball, right_hand))"}, "new_parent": [58, "drop left_hand green_ball room12", 1]}
+{"ts": 20, "act": "generated_states", "state_id": 58, "op": "drop left_hand green_ball room12"}
+{"ts":20, "act": "state_update", "state_id": 69, "g": -1, "real_g": -1}
+{"ts": 20, "act": "evaluated_states", "state_id": 69, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 20}
+{"ts":20, "act": "state_update", "state_id": 69, "h_ff": 10}
+{"ts": 20, "act": "evaluated_heuristics", "count": 1}
+{"ts":20, "act": "state_update", "state_id": 70, "state": {"var0": "1(Atom box(room12))", "var1": "1(Atom pos(room12))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "3(Atom ball_pos(red_ball, room12))"}, "new_parent": [58, "drop right_hand red_ball room12", 1]}
+{"ts": 20, "act": "generated_states", "state_id": 58, "op": "drop right_hand red_ball room12"}
+{"ts":20, "act": "state_update", "state_id": 70, "g": -1, "real_g": -1}
+{"ts": 20, "act": "evaluated_states", "state_id": 70, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 20}
+{"ts":20, "act": "state_update", "state_id": 70, "h_ff": 10}
+{"ts": 20, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 21}
+{"ts":21, "act": "state_update", "state_id": 60, "g": 17, "real_g": 17}
+{"ts": 21, "act": "expanded_states", "state_id": 60}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 21}
+{"ts":21, "act": "state_update", "state_id": 71, "state": {"var0": "2(Atom box(room13))", "var1": "2(Atom pos(room13))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "1(Atom ball_in_hand(red_ball, right_hand))"}, "new_parent": [60, "push_box room23 room13", 1]}
+{"ts": 21, "act": "generated_states", "state_id": 60, "op": "push_box room23 room13"}
+{"ts":21, "act": "state_update", "state_id": 71, "g": -1, "real_g": -1}
+{"ts": 21, "act": "evaluated_states", "state_id": 71, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 21}
+{"ts":21, "act": "state_update", "state_id": 71, "h_ff": 9}
+{"ts": 21, "act": "evaluated_heuristics", "count": 1}
+{"ts":21, "act": "state_update", "state_id": 56, "new_parent": [60, "push_box room23 room22", 1]}
+{"ts": 21, "act": "generated_states", "state_id": 60, "op": "push_box room23 room22"}
+{"ts":21, "act": "state_update", "state_id": 72, "state": {"var0": "5(Atom box(room23))", "var1": "5(Atom pos(room23))", "var2": "0(Atom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "1(Atom ball_in_hand(red_ball, right_hand))"}, "new_parent": [60, "light_room room23", 1]}
+{"ts": 21, "act": "generated_states", "state_id": 60, "op": "light_room room23"}
+{"ts":21, "act": "state_update", "state_id": 72, "g": -1, "real_g": -1}
+{"ts": 21, "act": "evaluated_states", "state_id": 72, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 21}
+{"ts":21, "act": "state_update", "state_id": 72, "h_ff": 8}
+{"ts": 21, "act": "evaluated_heuristics", "count": 1}
+{"ts":21, "act": "state_update", "state_id": 73, "state": {"var0": "5(Atom box(room23))", "var1": "2(Atom pos(room13))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "1(Atom ball_in_hand(red_ball, right_hand))"}, "new_parent": [60, "move room23 room13", 1]}
+{"ts": 21, "act": "generated_states", "state_id": 60, "op": "move room23 room13"}
+{"ts":21, "act": "state_update", "state_id": 73, "g": -1, "real_g": -1}
+{"ts": 21, "act": "evaluated_states", "state_id": 73, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 21}
+{"ts":21, "act": "state_update", "state_id": 73, "h_ff": 9}
+{"ts": 21, "act": "evaluated_heuristics", "count": 1}
+{"ts":21, "act": "state_update", "state_id": 74, "state": {"var0": "5(Atom box(room23))", "var1": "4(Atom pos(room22))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "1(Atom ball_in_hand(red_ball, right_hand))"}, "new_parent": [60, "move room23 room22", 1]}
+{"ts": 21, "act": "generated_states", "state_id": 60, "op": "move room23 room22"}
+{"ts":21, "act": "state_update", "state_id": 74, "g": -1, "real_g": -1}
+{"ts": 21, "act": "evaluated_states", "state_id": 74, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 21}
+{"ts":21, "act": "state_update", "state_id": 74, "h_ff": 8}
+{"ts": 21, "act": "evaluated_heuristics", "count": 1}
+{"ts":21, "act": "state_update", "state_id": 75, "state": {"var0": "5(Atom box(room23))", "var1": "8(Atom pos(room33))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "1(Atom ball_in_hand(red_ball, right_hand))"}, "new_parent": [60, "move room23 room33", 1]}
+{"ts": 21, "act": "generated_states", "state_id": 60, "op": "move room23 room33"}
+{"ts":21, "act": "state_update", "state_id": 75, "g": -1, "real_g": -1}
+{"ts": 21, "act": "evaluated_states", "state_id": 75, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 21}
+{"ts":21, "act": "state_update", "state_id": 75, "h_ff": 8}
+{"ts": 21, "act": "evaluated_heuristics", "count": 1}
+{"ts":21, "act": "state_update", "state_id": 76, "state": {"var0": "5(Atom box(room23))", "var1": "5(Atom pos(room23))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "7(Atom ball_pos(green_ball, room23))", "var11": "1(Atom ball_in_hand(red_ball, right_hand))"}, "new_parent": [60, "drop left_hand green_ball room23", 1]}
+{"ts": 21, "act": "generated_states", "state_id": 60, "op": "drop left_hand green_ball room23"}
+{"ts":21, "act": "state_update", "state_id": 76, "g": -1, "real_g": -1}
+{"ts": 21, "act": "evaluated_states", "state_id": 76, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 21}
+{"ts":21, "act": "state_update", "state_id": 76, "h_ff": 10}
+{"ts": 21, "act": "evaluated_heuristics", "count": 1}
+{"ts":21, "act": "state_update", "state_id": 77, "state": {"var0": "5(Atom box(room23))", "var1": "5(Atom pos(room23))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "7(Atom ball_pos(red_ball, room23))"}, "new_parent": [60, "drop right_hand red_ball room23", 1]}
+{"ts": 21, "act": "generated_states", "state_id": 60, "op": "drop right_hand red_ball room23"}
+{"ts":21, "act": "state_update", "state_id": 77, "g": -1, "real_g": -1}
+{"ts": 21, "act": "evaluated_states", "state_id": 77, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 21}
+{"ts":21, "act": "state_update", "state_id": 77, "h_ff": 10}
+{"ts": 21, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 22}
+{"ts":22, "act": "state_update", "state_id": 61, "g": 17, "real_g": 17}
+{"ts": 22, "act": "expanded_states", "state_id": 61}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 22}
+{"ts":22, "act": "state_update", "state_id": 78, "state": {"var0": "4(Atom box(room22))", "var1": "0(Atom pos(room11))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "1(Atom ball_in_hand(red_ball, right_hand))"}, "new_parent": [61, "move room12 room11", 1]}
+{"ts": 22, "act": "generated_states", "state_id": 61, "op": "move room12 room11"}
+{"ts":22, "act": "state_update", "state_id": 78, "g": -1, "real_g": -1}
+{"ts": 22, "act": "evaluated_states", "state_id": 78, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 22}
+{"ts":22, "act": "state_update", "state_id": 78, "h_ff": 8}
+{"ts": 22, "act": "evaluated_heuristics", "count": 1}
+{"ts":22, "act": "state_update", "state_id": 56, "new_parent": [61, "move room12 room22", 1]}
+{"ts": 22, "act": "generated_states", "state_id": 61, "op": "move room12 room22"}
+{"ts":22, "act": "state_update", "state_id": 79, "state": {"var0": "4(Atom box(room22))", "var1": "1(Atom pos(room12))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "3(Atom ball_pos(green_ball, room12))", "var11": "1(Atom ball_in_hand(red_ball, right_hand))"}, "new_parent": [61, "drop left_hand green_ball room12", 1]}
+{"ts": 22, "act": "generated_states", "state_id": 61, "op": "drop left_hand green_ball room12"}
+{"ts":22, "act": "state_update", "state_id": 79, "g": -1, "real_g": -1}
+{"ts": 22, "act": "evaluated_states", "state_id": 79, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 22}
+{"ts":22, "act": "state_update", "state_id": 79, "h_ff": 11}
+{"ts": 22, "act": "evaluated_heuristics", "count": 1}
+{"ts":22, "act": "state_update", "state_id": 80, "state": {"var0": "4(Atom box(room22))", "var1": "1(Atom pos(room12))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "3(Atom ball_pos(red_ball, room12))"}, "new_parent": [61, "drop right_hand red_ball room12", 1]}
+{"ts": 22, "act": "generated_states", "state_id": 61, "op": "drop right_hand red_ball room12"}
+{"ts":22, "act": "state_update", "state_id": 80, "g": -1, "real_g": -1}
+{"ts": 22, "act": "evaluated_states", "state_id": 80, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 22}
+{"ts":22, "act": "state_update", "state_id": 80, "h_ff": 11}
+{"ts": 22, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 23}
+{"ts":23, "act": "state_update", "state_id": 63, "g": 17, "real_g": 17}
+{"ts": 23, "act": "expanded_states", "state_id": 63}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 23}
+{"ts":23, "act": "state_update", "state_id": 81, "state": {"var0": "4(Atom box(room22))", "var1": "2(Atom pos(room13))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "1(Atom ball_in_hand(red_ball, right_hand))"}, "new_parent": [63, "move room23 room13", 1]}
+{"ts": 23, "act": "generated_states", "state_id": 63, "op": "move room23 room13"}
+{"ts":23, "act": "state_update", "state_id": 81, "g": -1, "real_g": -1}
+{"ts": 23, "act": "evaluated_states", "state_id": 81, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 23}
+{"ts":23, "act": "state_update", "state_id": 81, "h_ff": 9}
+{"ts": 23, "act": "evaluated_heuristics", "count": 1}
+{"ts":23, "act": "state_update", "state_id": 56, "new_parent": [63, "move room23 room22", 1]}
+{"ts": 23, "act": "generated_states", "state_id": 63, "op": "move room23 room22"}
+{"ts":23, "act": "state_update", "state_id": 82, "state": {"var0": "4(Atom box(room22))", "var1": "8(Atom pos(room33))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "1(Atom ball_in_hand(red_ball, right_hand))"}, "new_parent": [63, "move room23 room33", 1]}
+{"ts": 23, "act": "generated_states", "state_id": 63, "op": "move room23 room33"}
+{"ts":23, "act": "state_update", "state_id": 82, "g": -1, "real_g": -1}
+{"ts": 23, "act": "evaluated_states", "state_id": 82, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 23}
+{"ts":23, "act": "state_update", "state_id": 82, "h_ff": 8}
+{"ts": 23, "act": "evaluated_heuristics", "count": 1}
+{"ts":23, "act": "state_update", "state_id": 83, "state": {"var0": "4(Atom box(room22))", "var1": "5(Atom pos(room23))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "7(Atom ball_pos(green_ball, room23))", "var11": "1(Atom ball_in_hand(red_ball, right_hand))"}, "new_parent": [63, "drop left_hand green_ball room23", 1]}
+{"ts": 23, "act": "generated_states", "state_id": 63, "op": "drop left_hand green_ball room23"}
+{"ts":23, "act": "state_update", "state_id": 83, "g": -1, "real_g": -1}
+{"ts": 23, "act": "evaluated_states", "state_id": 83, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 23}
+{"ts":23, "act": "state_update", "state_id": 83, "h_ff": 11}
+{"ts": 23, "act": "evaluated_heuristics", "count": 1}
+{"ts":23, "act": "state_update", "state_id": 84, "state": {"var0": "4(Atom box(room22))", "var1": "5(Atom pos(room23))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "7(Atom ball_pos(red_ball, room23))"}, "new_parent": [63, "drop right_hand red_ball room23", 1]}
+{"ts": 23, "act": "generated_states", "state_id": 63, "op": "drop right_hand red_ball room23"}
+{"ts":23, "act": "state_update", "state_id": 84, "g": -1, "real_g": -1}
+{"ts": 23, "act": "evaluated_states", "state_id": 84, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 23}
+{"ts":23, "act": "state_update", "state_id": 84, "h_ff": 11}
+{"ts": 23, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 24}
+{"ts":24, "act": "state_update", "state_id": 65, "g": 18, "real_g": 18}
+{"ts": 24, "act": "expanded_states", "state_id": 65}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 24}
+{"ts":24, "act": "state_update", "state_id": 58, "new_parent": [65, "push_box room11 room12", 1]}
+{"ts": 24, "act": "generated_states", "state_id": 65, "op": "push_box room11 room12"}
+{"ts":24, "act": "state_update", "state_id": 85, "state": {"var0": "0(Atom box(room11))", "var1": "0(Atom pos(room11))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "0(Atom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "1(Atom ball_in_hand(red_ball, right_hand))"}, "new_parent": [65, "light_room room11", 1]}
+{"ts": 24, "act": "generated_states", "state_id": 65, "op": "light_room room11"}
+{"ts":24, "act": "state_update", "state_id": 85, "g": -1, "real_g": -1}
+{"ts": 24, "act": "evaluated_states", "state_id": 85, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 24}
+{"ts":24, "act": "state_update", "state_id": 85, "h_ff": 8}
+{"ts": 24, "act": "evaluated_heuristics", "count": 1}
+{"ts":24, "act": "state_update", "state_id": 86, "state": {"var0": "0(Atom box(room11))", "var1": "1(Atom pos(room12))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "1(Atom ball_in_hand(red_ball, right_hand))"}, "new_parent": [65, "move room11 room12", 1]}
+{"ts": 24, "act": "generated_states", "state_id": 65, "op": "move room11 room12"}
+{"ts":24, "act": "state_update", "state_id": 86, "g": -1, "real_g": -1}
+{"ts": 24, "act": "evaluated_states", "state_id": 86, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 24}
+{"ts":24, "act": "state_update", "state_id": 86, "h_ff": 8}
+{"ts": 24, "act": "evaluated_heuristics", "count": 1}
+{"ts":24, "act": "state_update", "state_id": 87, "state": {"var0": "0(Atom box(room11))", "var1": "0(Atom pos(room11))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "1(NegatedAtom empty_hand(right_hand))", "var10": "2(Atom ball_pos(green_ball, room11))", "var11": "1(Atom ball_in_hand(red_ball, right_hand))"}, "new_parent": [65, "drop left_hand green_ball room11", 1]}
+{"ts": 24, "act": "generated_states", "state_id": 65, "op": "drop left_hand green_ball room11"}
+{"ts":24, "act": "state_update", "state_id": 87, "g": -1, "real_g": -1}
+{"ts": 24, "act": "evaluated_states", "state_id": 87, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 24}
+{"ts":24, "act": "state_update", "state_id": 87, "h_ff": 10}
+{"ts": 24, "act": "evaluated_heuristics", "count": 1}
+{"ts":24, "act": "state_update", "state_id": 88, "state": {"var0": "0(Atom box(room11))", "var1": "0(Atom pos(room11))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "2(Atom ball_pos(red_ball, room11))"}, "new_parent": [65, "drop right_hand red_ball room11", 1]}
+{"ts": 24, "act": "generated_states", "state_id": 65, "op": "drop right_hand red_ball room11"}
+{"ts":24, "act": "state_update", "state_id": 88, "g": -1, "real_g": -1}
+{"ts": 24, "act": "evaluated_states", "state_id": 88, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 24}
+{"ts":24, "act": "state_update", "state_id": 88, "h_ff": 7}
+{"ts": 24, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 25}
+{"ts":25, "act": "state_update", "state_id": 88, "g": 19, "real_g": 19}
+{"ts": 25, "act": "expanded_states", "state_id": 88}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 25}
+{"ts":25, "act": "state_update", "state_id": 89, "state": {"var0": "1(Atom box(room12))", "var1": "1(Atom pos(room12))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "2(Atom ball_pos(red_ball, room11))"}, "new_parent": [88, "push_box room11 room12", 1]}
+{"ts": 25, "act": "generated_states", "state_id": 88, "op": "push_box room11 room12"}
+{"ts":25, "act": "state_update", "state_id": 89, "g": -1, "real_g": -1}
+{"ts": 25, "act": "evaluated_states", "state_id": 89, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 25}
+{"ts":25, "act": "state_update", "state_id": 89, "h_ff": 6}
+{"ts": 25, "act": "evaluated_heuristics", "count": 1}
+{"ts":25, "act": "state_update", "state_id": 90, "state": {"var0": "0(Atom box(room11))", "var1": "0(Atom pos(room11))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "0(Atom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "2(Atom ball_pos(red_ball, room11))"}, "new_parent": [88, "light_room room11", 1]}
+{"ts": 25, "act": "generated_states", "state_id": 88, "op": "light_room room11"}
+{"ts":25, "act": "state_update", "state_id": 90, "g": -1, "real_g": -1}
+{"ts": 25, "act": "evaluated_states", "state_id": 90, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 25}
+{"ts":25, "act": "state_update", "state_id": 90, "h_ff": 7}
+{"ts": 25, "act": "evaluated_heuristics", "count": 1}
+{"ts":25, "act": "state_update", "state_id": 91, "state": {"var0": "0(Atom box(room11))", "var1": "1(Atom pos(room12))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "2(Atom ball_pos(red_ball, room11))"}, "new_parent": [88, "move room11 room12", 1]}
+{"ts": 25, "act": "generated_states", "state_id": 88, "op": "move room11 room12"}
+{"ts":25, "act": "state_update", "state_id": 91, "g": -1, "real_g": -1}
+{"ts": 25, "act": "evaluated_states", "state_id": 91, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 25}
+{"ts":25, "act": "state_update", "state_id": 91, "h_ff": 6}
+{"ts": 25, "act": "evaluated_heuristics", "count": 1}
+{"ts":25, "act": "state_update", "state_id": 92, "state": {"var0": "0(Atom box(room11))", "var1": "0(Atom pos(room11))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "2(Atom ball_pos(green_ball, room11))", "var11": "2(Atom ball_pos(red_ball, room11))"}, "new_parent": [88, "drop left_hand green_ball room11", 1]}
+{"ts": 25, "act": "generated_states", "state_id": 88, "op": "drop left_hand green_ball room11"}
+{"ts":25, "act": "state_update", "state_id": 92, "g": -1, "real_g": -1}
+{"ts": 25, "act": "evaluated_states", "state_id": 92, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 25}
+{"ts":25, "act": "state_update", "state_id": 92, "h_ff": 9}
+{"ts": 25, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 26}
+{"ts":26, "act": "state_update", "state_id": 89, "g": 20, "real_g": 20}
+{"ts": 26, "act": "expanded_states", "state_id": 89}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 26}
+{"ts":26, "act": "state_update", "state_id": 88, "new_parent": [89, "push_box room12 room11", 1]}
+{"ts": 26, "act": "generated_states", "state_id": 89, "op": "push_box room12 room11"}
+{"ts":26, "act": "state_update", "state_id": 93, "state": {"var0": "4(Atom box(room22))", "var1": "4(Atom pos(room22))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "2(Atom ball_pos(red_ball, room11))"}, "new_parent": [89, "push_box room12 room22", 1]}
+{"ts": 26, "act": "generated_states", "state_id": 89, "op": "push_box room12 room22"}
+{"ts":26, "act": "state_update", "state_id": 93, "g": -1, "real_g": -1}
+{"ts": 26, "act": "evaluated_states", "state_id": 93, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 26}
+{"ts":26, "act": "state_update", "state_id": 93, "h_ff": 5}
+{"ts": 26, "act": "evaluated_heuristics", "count": 1}
+{"ts":26, "act": "state_update", "state_id": 94, "state": {"var0": "1(Atom box(room12))", "var1": "1(Atom pos(room12))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "0(Atom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "2(Atom ball_pos(red_ball, room11))"}, "new_parent": [89, "light_room room12", 1]}
+{"ts": 26, "act": "generated_states", "state_id": 89, "op": "light_room room12"}
+{"ts":26, "act": "state_update", "state_id": 94, "g": -1, "real_g": -1}
+{"ts": 26, "act": "evaluated_states", "state_id": 94, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 26}
+{"ts":26, "act": "state_update", "state_id": 94, "h_ff": 6}
+{"ts": 26, "act": "evaluated_heuristics", "count": 1}
+{"ts":26, "act": "state_update", "state_id": 95, "state": {"var0": "1(Atom box(room12))", "var1": "0(Atom pos(room11))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "2(Atom ball_pos(red_ball, room11))"}, "new_parent": [89, "move room12 room11", 1]}
+{"ts": 26, "act": "generated_states", "state_id": 89, "op": "move room12 room11"}
+{"ts":26, "act": "state_update", "state_id": 95, "g": -1, "real_g": -1}
+{"ts": 26, "act": "evaluated_states", "state_id": 95, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 26}
+{"ts":26, "act": "state_update", "state_id": 95, "h_ff": 7}
+{"ts": 26, "act": "evaluated_heuristics", "count": 1}
+{"ts":26, "act": "state_update", "state_id": 96, "state": {"var0": "1(Atom box(room12))", "var1": "4(Atom pos(room22))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "2(Atom ball_pos(red_ball, room11))"}, "new_parent": [89, "move room12 room22", 1]}
+{"ts": 26, "act": "generated_states", "state_id": 89, "op": "move room12 room22"}
+{"ts":26, "act": "state_update", "state_id": 96, "g": -1, "real_g": -1}
+{"ts": 26, "act": "evaluated_states", "state_id": 96, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 26}
+{"ts":26, "act": "state_update", "state_id": 96, "h_ff": 5}
+{"ts": 26, "act": "evaluated_heuristics", "count": 1}
+{"ts":26, "act": "state_update", "state_id": 97, "state": {"var0": "1(Atom box(room12))", "var1": "1(Atom pos(room12))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "3(Atom ball_pos(green_ball, room12))", "var11": "2(Atom ball_pos(red_ball, room11))"}, "new_parent": [89, "drop left_hand green_ball room12", 1]}
+{"ts": 26, "act": "generated_states", "state_id": 89, "op": "drop left_hand green_ball room12"}
+{"ts":26, "act": "state_update", "state_id": 97, "g": -1, "real_g": -1}
+{"ts": 26, "act": "evaluated_states", "state_id": 97, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 26}
+{"ts":26, "act": "state_update", "state_id": 97, "h_ff": 8}
+{"ts": 26, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 27}
+{"ts":27, "act": "state_update", "state_id": 93, "g": 21, "real_g": 21}
+{"ts": 27, "act": "expanded_states", "state_id": 93}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 27}
+{"ts":27, "act": "state_update", "state_id": 89, "new_parent": [93, "push_box room22 room12", 1]}
+{"ts": 27, "act": "generated_states", "state_id": 93, "op": "push_box room22 room12"}
+{"ts":27, "act": "state_update", "state_id": 98, "state": {"var0": "3(Atom box(room21))", "var1": "3(Atom pos(room21))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "2(Atom ball_pos(red_ball, room11))"}, "new_parent": [93, "push_box room22 room21", 1]}
+{"ts": 27, "act": "generated_states", "state_id": 93, "op": "push_box room22 room21"}
+{"ts":27, "act": "state_update", "state_id": 98, "g": -1, "real_g": -1}
+{"ts": 27, "act": "evaluated_states", "state_id": 98, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 27}
+{"ts":27, "act": "state_update", "state_id": 98, "h_ff": 6}
+{"ts": 27, "act": "evaluated_heuristics", "count": 1}
+{"ts":27, "act": "state_update", "state_id": 99, "state": {"var0": "5(Atom box(room23))", "var1": "5(Atom pos(room23))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "2(Atom ball_pos(red_ball, room11))"}, "new_parent": [93, "push_box room22 room23", 1]}
+{"ts": 27, "act": "generated_states", "state_id": 93, "op": "push_box room22 room23"}
+{"ts":27, "act": "state_update", "state_id": 99, "g": -1, "real_g": -1}
+{"ts": 27, "act": "evaluated_states", "state_id": 99, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 27}
+{"ts":27, "act": "state_update", "state_id": 99, "h_ff": 4}
+{"ts": 27, "act": "evaluated_heuristics", "count": 1}
+{"ts":27, "act": "state_update", "state_id": 100, "state": {"var0": "4(Atom box(room22))", "var1": "1(Atom pos(room12))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "2(Atom ball_pos(red_ball, room11))"}, "new_parent": [93, "move room22 room12", 1]}
+{"ts": 27, "act": "generated_states", "state_id": 93, "op": "move room22 room12"}
+{"ts":27, "act": "state_update", "state_id": 100, "g": -1, "real_g": -1}
+{"ts": 27, "act": "evaluated_states", "state_id": 100, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 27}
+{"ts":27, "act": "state_update", "state_id": 100, "h_ff": 6}
+{"ts": 27, "act": "evaluated_heuristics", "count": 1}
+{"ts":27, "act": "state_update", "state_id": 101, "state": {"var0": "4(Atom box(room22))", "var1": "3(Atom pos(room21))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "2(Atom ball_pos(red_ball, room11))"}, "new_parent": [93, "move room22 room21", 1]}
+{"ts": 27, "act": "generated_states", "state_id": 93, "op": "move room22 room21"}
+{"ts":27, "act": "state_update", "state_id": 101, "g": -1, "real_g": -1}
+{"ts": 27, "act": "evaluated_states", "state_id": 101, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 27}
+{"ts":27, "act": "state_update", "state_id": 101, "h_ff": 6}
+{"ts": 27, "act": "evaluated_heuristics", "count": 1}
+{"ts":27, "act": "state_update", "state_id": 102, "state": {"var0": "4(Atom box(room22))", "var1": "5(Atom pos(room23))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "2(Atom ball_pos(red_ball, room11))"}, "new_parent": [93, "move room22 room23", 1]}
+{"ts": 27, "act": "generated_states", "state_id": 93, "op": "move room22 room23"}
+{"ts":27, "act": "state_update", "state_id": 102, "g": -1, "real_g": -1}
+{"ts": 27, "act": "evaluated_states", "state_id": 102, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 27}
+{"ts":27, "act": "state_update", "state_id": 102, "h_ff": 4}
+{"ts": 27, "act": "evaluated_heuristics", "count": 1}
+{"ts":27, "act": "state_update", "state_id": 103, "state": {"var0": "4(Atom box(room22))", "var1": "4(Atom pos(room22))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "6(Atom ball_pos(green_ball, room22))", "var11": "2(Atom ball_pos(red_ball, room11))"}, "new_parent": [93, "drop left_hand green_ball room22", 1]}
+{"ts": 27, "act": "generated_states", "state_id": 93, "op": "drop left_hand green_ball room22"}
+{"ts":27, "act": "state_update", "state_id": 103, "g": -1, "real_g": -1}
+{"ts": 27, "act": "evaluated_states", "state_id": 103, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 27}
+{"ts":27, "act": "state_update", "state_id": 103, "h_ff": 6}
+{"ts": 27, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 28}
+{"ts":28, "act": "state_update", "state_id": 99, "g": 22, "real_g": 22}
+{"ts": 28, "act": "expanded_states", "state_id": 99}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 28}
+{"ts":28, "act": "state_update", "state_id": 104, "state": {"var0": "2(Atom box(room13))", "var1": "2(Atom pos(room13))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "2(Atom ball_pos(red_ball, room11))"}, "new_parent": [99, "push_box room23 room13", 1]}
+{"ts": 28, "act": "generated_states", "state_id": 99, "op": "push_box room23 room13"}
+{"ts":28, "act": "state_update", "state_id": 104, "g": -1, "real_g": -1}
+{"ts": 28, "act": "evaluated_states", "state_id": 104, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 28}
+{"ts":28, "act": "state_update", "state_id": 104, "h_ff": 5}
+{"ts": 28, "act": "evaluated_heuristics", "count": 1}
+{"ts":28, "act": "state_update", "state_id": 93, "new_parent": [99, "push_box room23 room22", 1]}
+{"ts": 28, "act": "generated_states", "state_id": 99, "op": "push_box room23 room22"}
+{"ts":28, "act": "state_update", "state_id": 105, "state": {"var0": "5(Atom box(room23))", "var1": "5(Atom pos(room23))", "var2": "0(Atom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "2(Atom ball_pos(red_ball, room11))"}, "new_parent": [99, "light_room room23", 1]}
+{"ts": 28, "act": "generated_states", "state_id": 99, "op": "light_room room23"}
+{"ts":28, "act": "state_update", "state_id": 105, "g": -1, "real_g": -1}
+{"ts": 28, "act": "evaluated_states", "state_id": 105, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 28}
+{"ts":28, "act": "state_update", "state_id": 105, "h_ff": 4}
+{"ts": 28, "act": "evaluated_heuristics", "count": 1}
+{"ts":28, "act": "state_update", "state_id": 106, "state": {"var0": "5(Atom box(room23))", "var1": "2(Atom pos(room13))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "2(Atom ball_pos(red_ball, room11))"}, "new_parent": [99, "move room23 room13", 1]}
+{"ts": 28, "act": "generated_states", "state_id": 99, "op": "move room23 room13"}
+{"ts":28, "act": "state_update", "state_id": 106, "g": -1, "real_g": -1}
+{"ts": 28, "act": "evaluated_states", "state_id": 106, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 28}
+{"ts":28, "act": "state_update", "state_id": 106, "h_ff": 5}
+{"ts": 28, "act": "evaluated_heuristics", "count": 1}
+{"ts":28, "act": "state_update", "state_id": 107, "state": {"var0": "5(Atom box(room23))", "var1": "4(Atom pos(room22))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "2(Atom ball_pos(red_ball, room11))"}, "new_parent": [99, "move room23 room22", 1]}
+{"ts": 28, "act": "generated_states", "state_id": 99, "op": "move room23 room22"}
+{"ts":28, "act": "state_update", "state_id": 107, "g": -1, "real_g": -1}
+{"ts": 28, "act": "evaluated_states", "state_id": 107, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 28}
+{"ts":28, "act": "state_update", "state_id": 107, "h_ff": 5}
+{"ts": 28, "act": "evaluated_heuristics", "count": 1}
+{"ts":28, "act": "state_update", "state_id": 108, "state": {"var0": "5(Atom box(room23))", "var1": "8(Atom pos(room33))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "2(Atom ball_pos(red_ball, room11))"}, "new_parent": [99, "move room23 room33", 1]}
+{"ts": 28, "act": "generated_states", "state_id": 99, "op": "move room23 room33"}
+{"ts":28, "act": "state_update", "state_id": 108, "g": -1, "real_g": -1}
+{"ts": 28, "act": "evaluated_states", "state_id": 108, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 28}
+{"ts":28, "act": "state_update", "state_id": 108, "h_ff": 3}
+{"ts": 28, "act": "evaluated_heuristics", "count": 1}
+{"ts":28, "act": "state_update", "state_id": 109, "state": {"var0": "5(Atom box(room23))", "var1": "5(Atom pos(room23))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "7(Atom ball_pos(green_ball, room23))", "var11": "2(Atom ball_pos(red_ball, room11))"}, "new_parent": [99, "drop left_hand green_ball room23", 1]}
+{"ts": 28, "act": "generated_states", "state_id": 99, "op": "drop left_hand green_ball room23"}
+{"ts":28, "act": "state_update", "state_id": 109, "g": -1, "real_g": -1}
+{"ts": 28, "act": "evaluated_states", "state_id": 109, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 28}
+{"ts":28, "act": "state_update", "state_id": 109, "h_ff": 6}
+{"ts": 28, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 29}
+{"ts":29, "act": "state_update", "state_id": 108, "g": 23, "real_g": 23}
+{"ts": 29, "act": "expanded_states", "state_id": 108}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 29}
+{"ts":29, "act": "state_update", "state_id": 99, "new_parent": [108, "move room33 room23", 1]}
+{"ts": 29, "act": "generated_states", "state_id": 108, "op": "move room33 room23"}
+{"ts":29, "act": "state_update", "state_id": 110, "state": {"var0": "5(Atom box(room23))", "var1": "7(Atom pos(room32))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "2(Atom ball_pos(red_ball, room11))"}, "new_parent": [108, "move room33 room32", 1]}
+{"ts": 29, "act": "generated_states", "state_id": 108, "op": "move room33 room32"}
+{"ts":29, "act": "state_update", "state_id": 110, "g": -1, "real_g": -1}
+{"ts": 29, "act": "evaluated_states", "state_id": 110, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 29}
+{"ts":29, "act": "state_update", "state_id": 110, "h_ff": 2}
+{"ts": 29, "act": "evaluated_heuristics", "count": 1}
+{"ts":29, "act": "state_update", "state_id": 111, "state": {"var0": "5(Atom box(room23))", "var1": "8(Atom pos(room33))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "10(Atom ball_pos(green_ball, room33))", "var11": "2(Atom ball_pos(red_ball, room11))"}, "new_parent": [108, "drop left_hand green_ball room33", 1]}
+{"ts": 29, "act": "generated_states", "state_id": 108, "op": "drop left_hand green_ball room33"}
+{"ts":29, "act": "state_update", "state_id": 111, "g": -1, "real_g": -1}
+{"ts": 29, "act": "evaluated_states", "state_id": 111, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 29}
+{"ts":29, "act": "state_update", "state_id": 111, "h_ff": 4}
+{"ts": 29, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 30}
+{"ts":30, "act": "state_update", "state_id": 110, "g": 24, "real_g": 24}
+{"ts": 30, "act": "expanded_states", "state_id": 110}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 30}
+{"ts":30, "act": "state_update", "state_id": 112, "state": {"var0": "5(Atom box(room23))", "var1": "6(Atom pos(room31))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "1(NegatedAtom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "0(Atom ball_in_hand(green_ball, left_hand))", "var11": "2(Atom ball_pos(red_ball, room11))"}, "new_parent": [110, "move room32 room31", 1]}
+{"ts": 30, "act": "generated_states", "state_id": 110, "op": "move room32 room31"}
+{"ts":30, "act": "state_update", "state_id": 112, "g": -1, "real_g": -1}
+{"ts": 30, "act": "evaluated_states", "state_id": 112, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 30}
+{"ts":30, "act": "state_update", "state_id": 112, "h_ff": 1}
+{"ts": 30, "act": "evaluated_heuristics", "count": 1}
+{"ts":30, "act": "state_update", "state_id": 108, "new_parent": [110, "move room32 room33", 1]}
+{"ts": 30, "act": "generated_states", "state_id": 110, "op": "move room32 room33"}
+{"ts":30, "act": "state_update", "state_id": 113, "state": {"var0": "5(Atom box(room23))", "var1": "7(Atom pos(room32))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "9(Atom ball_pos(green_ball, room32))", "var11": "2(Atom ball_pos(red_ball, room11))"}, "new_parent": [110, "drop left_hand green_ball room32", 1]}
+{"ts": 30, "act": "generated_states", "state_id": 110, "op": "drop left_hand green_ball room32"}
+{"ts":30, "act": "state_update", "state_id": 113, "g": -1, "real_g": -1}
+{"ts": 30, "act": "evaluated_states", "state_id": 113, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 30}
+{"ts":30, "act": "state_update", "state_id": 113, "h_ff": 3}
+{"ts": 30, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 31}
+{"ts":31, "act": "state_update", "state_id": 112, "g": 25, "real_g": 25}
+{"ts": 31, "act": "expanded_states", "state_id": 112}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 31}
+{"ts":31, "act": "state_update", "state_id": 110, "new_parent": [112, "move room31 room32", 1]}
+{"ts": 31, "act": "generated_states", "state_id": 112, "op": "move room31 room32"}
+{"ts":31, "act": "state_update", "state_id": 114, "state": {"var0": "5(Atom box(room23))", "var1": "6(Atom pos(room31))", "var2": "1(NegatedAtom lit(room23))", "var3": "0(Atom lit(room22))", "var4": "1(NegatedAtom lit(room21))", "var5": "0(Atom lit(room13))", "var6": "1(NegatedAtom lit(room12))", "var7": "1(NegatedAtom lit(room11))", "var8": "0(Atom empty_hand(left_hand))", "var9": "0(Atom empty_hand(right_hand))", "var10": "8(Atom ball_pos(green_ball, room31))", "var11": "2(Atom ball_pos(red_ball, room11))"}, "new_parent": [112, "drop left_hand green_ball room31", 1]}
+{"ts": 31, "act": "generated_states", "state_id": 112, "op": "drop left_hand green_ball room31"}
+{"ts":31, "act": "state_update", "state_id": 114, "g": -1, "real_g": -1}
+{"ts": 31, "act": "evaluated_states", "state_id": 114, "preferred": 0}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 31}
+{"ts":31, "act": "state_update", "state_id": 114, "h_ff": 0}
+{"ts": 31, "act": "evaluated_heuristics", "count": 1}
+{"act": "end_group"}
+{"act": "begin_group", "ts": 32}
+{"ts":32, "act": "state_update", "state_id": 114, "g": 26, "real_g": 26}
+{"ts": 32, "act": "expanded_states", "state_id": 114}
+{"act": "end_group"}
+{"ts": 32, "act": "plan_found", "state_ids": [0, 1, 2, 3, 5, 6, 8, 9, 11, 17, 23, 29, 34, 38, 40, 42, 56, 58, 65, 88, 89, 93, 99, 108, 110, 112, 114]}

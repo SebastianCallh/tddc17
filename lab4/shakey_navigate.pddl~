@@ -1,0 +1,15 @@
+(define (problem navigate)
+  (:domain shakey)
+  (:objects 
+    left_hand  - hand 
+    right_hand - hand 
+    box        - box
+    room1      - room
+    room2      - room
+    room3      - room)
+  (:init 
+    (pos room3)
+    (small_door room1 room2)
+    (wide_door  room2 room3)
+    (ball room2))
+  (:goal (ball room1)))
