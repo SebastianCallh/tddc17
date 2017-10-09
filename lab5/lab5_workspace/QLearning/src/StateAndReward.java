@@ -4,40 +4,36 @@ public class StateAndReward {
 	/* State discretization function for the angle controller */
 	public static String getStateAngle(double angle, double vx, double vy) {
 		int dangle = discretize(angle, 10, 2*-Math.PI/3, 2*Math.PI/3);
-		//int dvx    = discretize(vx, 30, -2, 2);
-		//int dvy    = discretize(vy, 30, -2, 2);
-		return dangle + ":"; // + "," + dvx + "," + dvy +",";
+		return dangle + ",";
 	}
 
 	/* Reward function for the angle controller */
 	public static double getRewardAngle(double angle, double vx, double vy) {
 		return Math.PI - Math.abs(angle);
-		/*
-		if (Math.abs(angle) > Math.PI/2){
-			return -2;
-		} else {
-			return Math.pow(Math.PI - Math.abs(angle), 3);
-		}*/
 	}
 
 	/* State discretization function for the full hover controller */
 	public static String getStateHover(double angle, double vx, double vy) {
-
-		/* TODO: IMPLEMENT THIS FUNCTION */
-
-		String state = "OneStateToRuleThemAll2";
-		
-		return state;
+		int dangle = discretize(angle, 10, -Math.PI, Math.PI);
+		int dvx    = discretize(vx, 4, -2, 2);
+		int dvy    = discretize(vy, 4, -3, 3);
+		return dangle + "," + dvx + "," + dvy + ",";
 	}
 
 	/* Reward function for the full hover controller */
 	public static double getRewardHover(double angle, double vx, double vy) {
-
-		/* TODO: IMPLEMENT THIS FUNCTION */
+		double vMax = 15;
+		double angleR = Math.PI - Math.abs(angle);
+		double vxR    = (vMax - Math.abs(vx)) / 7;
+		double vyR    = (vMax - Math.abs(vy)) / 7;
 		
-		double reward = 0;
-
-		return reward;
+		//if (Math.abs(vxR) < 1)
+	//		vxR += 5;
+//		
+	//	if (Math.abs(vyR) < 1)
+	//		vyR += 5;
+		
+		return angleR + vyR + vxR;
 	}
 
 	// ///////////////////////////////////////////////////////////
