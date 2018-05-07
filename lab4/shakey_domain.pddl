@@ -2,14 +2,19 @@
   (:requirements :strips)
   (:types hand room ball)
   (:predicates 
-    (pos  ?r - room)
-    (lit  ?r - room)
-    (box  ?r - room)
-    (ball_in_hand ?b - ball ?h - hand )
+    (pos  ?r - room) 
+    ;; Our position in a room
+    (lit  ?r - room) 
+    ;; Are the lights turned on in a specific room?
+    (box  ?r - room) 
+    ;; Is there a box in a specific room?
+    (ball_in_hand ?b - ball ?h - hand)
     (ball_pos     ?b - ball ?r - room)
     (empty_hand   ?h - hand)
     (small_door   ?r1 - room ?r2 - room)
+    ;; Is a small door connecting r1 and r2
     (wide_door    ?r1 - room ?r2 - room))
+    ;; Is a wide door connecting r1 and r2
 
   (:action move
     :parameters   (?from - room ?to - room)
